@@ -22,12 +22,13 @@ function formatDate(dateToFormat) {
 /**
  * Creates an element with the given parameters.
  * @param {String} tagname The tag name for the element that will be created
- * @param {String} [className] The class name that will be added to the element. 
- * @param {String} [innerText] Any text that will be placed inside the object
- * @param {String} [href] The href to use if the element is an anchor.
+ * @param {Object} [atributes] The attribues object to use for the object created.
+ * @param {String} [atributes.className] The class name that will be added to the element. 
+ * @param {String} [atributes.innerText] Any text that will be placed inside the object
+ * @param {String} [atributes.href] The href to use if the element is an anchor.
  * @returns The created HTML Element.
  */
-function createElement(tagname, className=null, innerText=null, href=null) {
+function createElement(tagname, {className, innerText, href}) {
     const element = document.createElement(tagname);
     if(className)
         element.className = className;
@@ -50,25 +51,30 @@ function createElement(tagname, className=null, innerText=null, href=null) {
  * information of the incident on 
  * the website
  * @param {object} incident Object that contains the information of an incident that will be shown on the website
+ * @param {string} incident.icon The path for the icon of the incident
+ * @param {string} incident.date The date when the incident happened
+ * @param {string} incident.name The name or Title for the incident
+ * @param {string} incident.description The description of what happened
+ * @param {string} incident.url The archive url with the report
  * @returns The new cell to insert on the DOM of the website.
  */
-function createDataCell(incident) {
+function createDataCell({icon, date: dateStr, name, description, url}) {
     const container = createElement("div", "dataCell");
 
-    const icon = createElement("p", null, incident.icon);
-    container.appendChild(icon);
+    const iconElem = createElement("p", {innerText: icon});
+    container.appendChild(iconElem);
 
-    incident.date = new Date(incident.date);
-    const date = createElement("p", "dateText", formatDate(incident.date));
-    container.appendChild(date);
+    dateStr = formatDate(new Date(dateStr));
+    const dateElem = createElement("p", {className: "dateText", innerText: dateStr});
+    container.appendChild(dateElem);
 
-    const name = createElement("h3", null, incident.name);
-    container.appendChild(name);
+    const nameElem = createElement("h3", {innerText: name});
+    container.appendChild(nameElem);
 
-    const description = createElement("p", null, incident.description);
-    container.appendChild(description);
+    const descriptElem = createElement("p", {innerText: description});
+    container.appendChild(descriptElem);
 
-    const anchor = createElement("a", null, null, incident.url);
+    const anchor = createElement("a", {href: url});
     anchor.appendChild(container);
 
     return anchor;
