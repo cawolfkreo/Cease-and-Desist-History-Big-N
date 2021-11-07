@@ -1,0 +1,80 @@
+/* ==================
+     Variables
+================== */
+* {
+    box-sizing: border-box;
+    --round-border: 10px;
+    
+    /*colors*/
+    --main-color: #de0000;
+    --foreground-color: #fffdfc;
+    --foter-color: #A30303;
+}
+
+@font-face {
+    font-family: pretendo;
+    src: url(../fonts/Pretendo.ttf);
+}
+
+/* ==================
+       Tags
+================== */
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: var(--main-color);
+    color: var(--foreground-color);
+    font-family: pretendo, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header, footer, .content {
+    text-align: center;
+}
+
+header {
+    margin: auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+header > h1 {
+    font-size: 1.7em;
+    border: var(--foreground-color) solid 7.5px;
+    padding: 6px 12px;
+    margin: 10px 50px;
+    border-radius: 130px;
+    font-weight: 400;
+}
+
+footer {
+    background-color: var(--foter-color);
+    flex: 0 0;
+    padding: 10px 0;
+}
+
+/* ==================
+      Classes
+================== */
+
+.content {
+    flex: 1 0 auto;
+}
+
+.banner {
+	height: 110px;
+	width: 400px;
+	object-fit: cover;
+}
+
+/* ==================
+        IDs
+================== */

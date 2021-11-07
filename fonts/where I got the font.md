@@ -1,0 +1,2 @@
+# This font isn't made by me
+I looked up for fonts for the website using dafont and then I found the "pretendo" font [on a forum post](https://www.dafont.com/es/forum/read/26850/the-nintendo-font). I followed the link to [this website](https://www.abstractfonts.com/font/11800?text=Nintendo) and downloaded said font. Apparently, it doesn't appear to have any license so I decided to use this one, just to avoid any "potential legal issues".
