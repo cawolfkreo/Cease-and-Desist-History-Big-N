@@ -14,6 +14,7 @@
 @font-face {
     font-family: pretendo;
     src: url(../fonts/Pretendo.ttf) format("truetype");
+    unicode-range: U+41-5A, U+61-7A;
 }
 
 /* ==================
@@ -32,7 +33,7 @@ body {
     
     background-color: var(--main-color);
     color: var(--foreground-color);
-    font-family: pretendo, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: pretendo, 'Franklin Gothic Medium', Arial, sans-serif;
 }
 
 header, footer, .content {
@@ -82,12 +83,23 @@ footer {
 
 .content {
     flex: 1 0 auto;
+    margin: 5vmin 2.6vmin;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+    gap: 3rem;
+    justify-content: center;
 }
 
-.banner {
-	height: 110px;
-	width: 400px;
-	object-fit: cover;
+.content > a {
+    text-decoration: none;
+    color: var(--foreground-color)
+}
+
+.dateText {
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
 }
 
 /* ==================
