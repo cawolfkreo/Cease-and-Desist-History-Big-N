@@ -58,7 +58,7 @@ function createElement(tagname, {className, innerText, href}) {
  * @returns The new cell to insert on the DOM of the website.
  */
 function createDataCell({icon, date: dateStr, name, description, url}) {
-    const container = createElement("div", "dataCell");
+    const container = createElement("div", {className: "dataCell"});
 
     const anchor = createElement("a", {href: url});
     container.appendChild(anchor);

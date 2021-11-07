@@ -91,7 +91,7 @@ footer {
     justify-content: center;
 }
 
-.content > div > a {
+.dataCell > a {
     text-decoration: none;
     color: var(--foreground-color);
 }
