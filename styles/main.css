@@ -91,9 +91,9 @@ footer {
     justify-content: center;
 }
 
-.content > a {
+.content > div > a {
     text-decoration: none;
-    color: var(--foreground-color)
+    color: var(--foreground-color);
 }
 
 .dateText {

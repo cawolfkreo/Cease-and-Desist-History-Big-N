@@ -1,6 +1,5 @@
 "use strict";
 
-//TODO: Guardar el a en el contenedor y los items en el a.
 //TODO: Separar formulario de busqueda de la lista de items.
 //TODO: Filtrado con palabras clave.
 //TODO: Usar iconos.
@@ -61,23 +60,23 @@ function createElement(tagname, {className, innerText, href}) {
 function createDataCell({icon, date: dateStr, name, description, url}) {
     const container = createElement("div", "dataCell");
 
+    const anchor = createElement("a", {href: url});
+    container.appendChild(anchor);
+
     const iconElem = createElement("p", {innerText: icon});
-    container.appendChild(iconElem);
+    anchor.appendChild(iconElem);
 
     dateStr = formatDate(new Date(dateStr));
     const dateElem = createElement("p", {className: "dateText", innerText: dateStr});
-    container.appendChild(dateElem);
+    anchor.appendChild(dateElem);
 
     const nameElem = createElement("h3", {innerText: name});
-    container.appendChild(nameElem);
+    anchor.appendChild(nameElem);
 
     const descriptElem = createElement("p", {innerText: description});
-    container.appendChild(descriptElem);
+    anchor.appendChild(descriptElem);
 
-    const anchor = createElement("a", {href: url});
-    anchor.appendChild(container);
-
-    return anchor;
+    return container;
 }
 
 /**
