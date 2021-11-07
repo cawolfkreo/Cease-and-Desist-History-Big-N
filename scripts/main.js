@@ -1,6 +1,5 @@
 "use strict";
 
-//TODO: Funcion(es) para crear divs, p, h3 y a con los parámetros necesarios
 //TODO: Guardar el a en el contenedor y los items en el a.
 //TODO: Separar formulario de busqueda de la lista de items.
 //TODO: Filtrado con palabras clave.
@@ -21,6 +20,31 @@ function formatDate(dateToFormat) {
 }
 
 /**
+ * Creates an element with the given parameters.
+ * @param {String} tagname The tag name for the element that will be created
+ * @param {String} [className] The class name that will be added to the element. 
+ * @param {String} [innerText] Any text that will be placed inside the object
+ * @param {String} [href] The href to use if the element is an anchor.
+ * @returns The created HTML Element.
+ */
+function createElement(tagname, className=null, innerText=null, href=null) {
+    const element = document.createElement(tagname);
+    if(className)
+        element.className = className;
+
+    if(innerText)
+        element.innerText = innerText;
+    
+    if(tagname === "a" && href) {
+        element.href = href;
+        element.target = "_blank";
+        element.rel = "noopener noreferrer";
+    }
+
+    return element;
+}
+
+/**
  * creates an html Element that will
  * be used to display the 
  * information of the incident on 
@@ -29,31 +53,22 @@ function formatDate(dateToFormat) {
  * @returns The new cell to insert on the DOM of the website.
  */
 function createDataCell(incident) {
-    const container = document.createElement("div");
-    container.className = "dataCell";
+    const container = createElement("div", "dataCell");
 
-    const icon = document.createElement("p");
-    icon.innerText = incident.icon;
+    const icon = createElement("p", null, incident.icon);
     container.appendChild(icon);
 
-    const date = document.createElement("p");
     incident.date = new Date(incident.date);
-    date.innerText = formatDate(incident.date);
-    date.className = "dateText";
+    const date = createElement("p", "dateText", formatDate(incident.date));
     container.appendChild(date);
 
-    const name = document.createElement("h3");
-    name.innerText = incident.name;
+    const name = createElement("h3", null, incident.name);
     container.appendChild(name);
 
-    const description = document.createElement("p");
-    description.innerText = incident.description;
+    const description = createElement("p", null, incident.description);
     container.appendChild(description);
 
-    const anchor = document.createElement("a");
-    anchor.href = incident.url;
-    anchor.target = "_blank";
-    anchor.rel = "noopener noreferrer";
+    const anchor = createElement("a", null, null, incident.url);
     anchor.appendChild(container);
 
     return anchor;
