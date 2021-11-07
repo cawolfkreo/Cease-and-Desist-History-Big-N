@@ -84,7 +84,13 @@ footer {
 .content {
     flex: 1 0 auto;
     margin: 5vmin 2.6vmin;
+}
 
+.form {
+    margin-bottom: 5vmin;
+}
+
+.grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
     gap: 3rem;

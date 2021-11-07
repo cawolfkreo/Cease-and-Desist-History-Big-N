@@ -85,7 +85,7 @@ function createDataCell({icon, date: dateStr, name, description, url}) {
  * @param {Array<Object>} data The data that will be used to update the DOM
  */
 function updateDom(data) {
-    const contentElem = document.querySelector(".content");
+    const contentElem = document.querySelector(".grid");
     contentElem.innerHTML = "";
 
     for (const incident of data) {
