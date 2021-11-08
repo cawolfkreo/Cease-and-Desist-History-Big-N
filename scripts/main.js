@@ -1,7 +1,5 @@
 "use strict";
 
-//TODO: Usar iconos.
-
 /**
  * Formats a date to a simple string
  * @param {Date} dateToFormat The date we need to format as a string
