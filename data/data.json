@@ -1,70 +1,80 @@
 [
     {
         "url": "https://duckduckgo.com",
-        "icon": "[some url here]",
+        "icon": "block.svg",
+        "alt": "This incident is about something getting blocked",
         "date": "2021-11-07",
         "name": "item 1",
         "description": "Lorem ipsum dolor sit amet, something consectetur adipiscing elit.\n Nullam sit amet ligula ac quam scelerisque pulvinar."
     },
     {
         "url": "https://duckduckgo.com",
-        "icon": "[some url here]",
+        "icon": "law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
         "date": "2021-5-07",
         "name": "item 2",
         "description": "Lorem ipsum dolor sit amet, test consectetur adipiscing elit.\n Nullam sit amet ligula ac quam scelerisque pulvinar."
     },
     {
         "url": "https://duckduckgo.com",
-        "icon": "[some url here]",
+        "icon": "balance.svg",
+        "alt": "This incident was about something having to pay compensation or any monetary problems caused by the big N",
         "date": "2021-8-07",
         "name": "item 3",
         "description": "Lorem ipsum dolor sit amet, thing consectetur adipiscing elit.\n Nullam sit amet ligula ac quam scelerisque pulvinar."
     },
     {
         "url": "https://duckduckgo.com",
-        "icon": "[some url here]",
+        "icon": "block.svg",
+        "alt": "This incident is about something getting blocked",
         "date": "2020-1-07",
         "name": "item 4",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n Nullam sit amet ligula ac quam scelerisque pulvinar."
     },
     {
         "url": "https://duckduckgo.com",
-        "icon": "[some url here]",
+        "icon": "law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
         "date": "2021-11-07",
         "name": "item 5",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n Nullam sit amet ligula ac quam scelerisque pulvinar."
     },
     {
         "url": "https://duckduckgo.com",
-        "icon": "[some url here]",
+        "icon": "balance.svg",
+        "alt": "This incident was about something having to pay compensation or any monetary problems caused by the big N",
         "date": "2021-11-07",
         "name": "item 6",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n Nullam sit amet ligula ac quam scelerisque pulvinar."
     },
     {
         "url": "https://duckduckgo.com",
-        "icon": "[some url here]",
+        "icon": "block.svg",
+        "alt": "This incident is about something getting blocked",
         "date": "2021-11-07",
         "name": "item 7",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n Nullam sit amet ligula ac quam scelerisque pulvinar."
     },
     {
         "url": "https://duckduckgo.com",
-        "icon": "[some url here]",
+        "icon": "law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
         "date": "2021-11-07",
         "name": "item 8",
         "description": "Lorem ipsum dolor sit amet, test consectetur adipiscing elit.\n Nullam sit amet ligula ac quam scelerisque pulvinar."
     },
     {
         "url": "https://duckduckgo.com",
-        "icon": "[some url here]",
+        "icon": "balance.svg",
+        "alt": "This incident was about something having to pay compensation or any monetary problems caused by the big N",
         "date": "2021-11-07",
         "name": "item 9",
         "description": "Lorem ipsum dolor sit amet, a thing consectetur adipiscing elit.\n Nullam sit amet ligula ac quam scelerisque pulvinar."
     },
     {
         "url": "https://duckduckgo.com",
-        "icon": "[some url here]",
+        "icon": "law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
         "date": "2021-11-07",
         "name": "item 10",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n Nullam sit amet ligula ac quam scelerisque pulvinar."

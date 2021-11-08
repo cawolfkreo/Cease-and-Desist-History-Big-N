@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024">
+    <path d="M1006 1006q-18 18-43 18t-43-18L471 557L366 662v1q18 18 18 43.5T366 750t-43.5 18t-43.5-18L18 489Q0 471 0 445.5T18 402t43.5-18t43.5 18l1 1l297-297l-1-1q-18-18-18-43.5T402 18t43.5-18T489 18l261 261q18 18 18 43.5T750 366t-43.5 18t-43.5-18l-1-1l-105 105l449 450q18 18 18 43t-18 43zM337 250l-86 87l181 181l86-86z" fill="currentColor"/>
+    </svg>

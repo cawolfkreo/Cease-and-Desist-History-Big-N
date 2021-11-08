@@ -100,6 +100,11 @@ footer {
     color: var(--foreground-color);
 }
 
+.dataCell > a > img {
+    height: 4.5em;
+    filter: invert(1);
+}
+
 .dateText {
     font-size: 1.17em;
     font-weight: 900;
@@ -140,6 +145,7 @@ footer {
 }
 
 .grid {
+    margin-top: 4em;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
     gap: 3rem;

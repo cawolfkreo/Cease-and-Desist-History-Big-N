@@ -23,9 +23,11 @@ function formatDate(dateToFormat) {
  * @param {String} [atributes.className] The class name that will be added to the element. 
  * @param {String} [atributes.innerText] Any text that will be placed inside the object
  * @param {String} [atributes.href] The href to use if the element is an anchor.
+ * @param {String} [atributes.src] The src for the image if the element is an img.
+ * @param {String} [atributes.alt] The alt about the image if the element is an img.
  * @returns The created HTML Element.
  */
-function createElement(tagname, {className, innerText, href}) {
+function createElement(tagname, {className, innerText, href, src, alt}) {
     const element = document.createElement(tagname);
     if(className)
         element.className = className;
@@ -39,6 +41,11 @@ function createElement(tagname, {className, innerText, href}) {
         element.rel = "noopener noreferrer";
     }
 
+    if(tagname === "img" && src) {
+        element.src = src;
+        element.alt = alt;
+    }
+
     return element;
 }
 
@@ -49,19 +56,20 @@ function createElement(tagname, {className, innerText, href}) {
  * the website
  * @param {object} incident Object that contains the information of an incident that will be shown on the website
  * @param {string} incident.icon The path for the icon of the incident
+ * @param {string} incident.alt The alt for the icon of the incident
  * @param {string} incident.date The date when the incident happened
  * @param {string} incident.name The name or Title for the incident
  * @param {string} incident.description The description of what happened
  * @param {string} incident.url The archive url with the report
  * @returns The new cell to insert on the DOM of the website.
  */
-function createDataCell({icon, date: dateStr, name, description, url}) {
+function createDataCell({icon, alt, date: dateStr, name, description, url}) {
     const container = createElement("div", {className: "dataCell"});
 
     const anchor = createElement("a", {href: url});
     container.appendChild(anchor);
 
-    const iconElem = createElement("p", {innerText: icon});
+    const iconElem = createElement("img", {src: `./images/${icon}`, alt});
     anchor.appendChild(iconElem);
 
     dateStr = formatDate(new Date(dateStr));
