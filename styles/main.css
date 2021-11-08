@@ -1,6 +1,12 @@
 /* ==================
      Variables
 ================== */
+@font-face {
+    font-family: pretendo;
+    src: url(../fonts/Pretendo.ttf) format("truetype");
+    unicode-range: U+41-5A, U+61-7A;
+}
+
 * {
     box-sizing: border-box;
     --round-border: 10px;
@@ -9,13 +15,15 @@
     --main-color: #de0000;
     --foreground-color: #fffdfc;
     --foter-color: #A30303;
+
+    /*transitions*/
+    --transition-forms: all 0.25s ease-out;
+
+    /*font*/
+    --font: pretendo, 'Franklin Gothic Medium', Arial, sans-serif;
 }
 
-@font-face {
-    font-family: pretendo;
-    src: url(../fonts/Pretendo.ttf) format("truetype");
-    unicode-range: U+41-5A, U+61-7A;
-}
+
 
 /* ==================
        Tags
@@ -33,7 +41,7 @@ body {
     
     background-color: var(--main-color);
     color: var(--foreground-color);
-    font-family: pretendo, 'Franklin Gothic Medium', Arial, sans-serif;
+    font-family: var(--font);
 }
 
 header, footer, .content {
@@ -86,17 +94,6 @@ footer {
     margin: 5vmin 2.6vmin;
 }
 
-.form {
-    margin-bottom: 5vmin;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
-    gap: 3rem;
-    justify-content: center;
-}
-
 .dataCell > a {
     text-decoration: none;
     color: var(--foreground-color);
@@ -108,6 +105,75 @@ footer {
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
 }
 
+.form {
+    margin-bottom: 5vmin;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 55vmin;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.form > label {
+    text-align: start;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 2px solid var(--foter-color);
+}
+
+.form > label::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: -2px;
+    left: 0;
+    border-bottom: 3px solid var(--foreground-color);
+    transform: translateX(-100%);
+    transition: var(--transition-forms);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+    gap: 3rem;
+    justify-content: center;
+}
+
+.search-name {
+    position: absolute;
+    bottom: 1em;
+    left: 0;
+    transition: var(--transition-forms);
+}
+
 /* ==================
         IDs
 ================== */
+
+#searchInpt {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--foreground-color);
+    font-family: var(--font);
+    font-size: 1.1em;
+}
+
+#searchInpt:focus + label .search-name,
+#searchInpt:valid + label .search-name {
+    transform: translateY(-150%);
+    font-size: 0.8em;
+}
+
+#searchInpt:focus + label::after,
+#searchInpt:valid + label::after {
+    transform: translateX(0);
+}
