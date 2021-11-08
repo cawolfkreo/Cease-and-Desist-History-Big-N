@@ -21,6 +21,7 @@
 
     /*font*/
     --font: pretendo, 'Franklin Gothic Medium', Arial, sans-serif;
+    --font-2: 'Franklin Gothic Medium', Arial, sans-serif;
 }
 
 
@@ -102,7 +103,7 @@ footer {
 .dateText {
     font-size: 1.17em;
     font-weight: 900;
-    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    font-family: var(--font-2);
 }
 
 .form {
@@ -110,7 +111,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     max-width: 55vmin;
-    height: 50px;
+    height: 60px;
     position: relative;
     overflow: hidden;
 }
@@ -163,14 +164,14 @@ footer {
     border: none;
     outline: none;
     color: var(--foreground-color);
-    font-family: var(--font);
-    font-size: 1.1em;
+    font-family: var(--font-2);
+    font-size: 1.2em;
 }
 
 #searchInpt:focus + label .search-name,
 #searchInpt:valid + label .search-name {
-    transform: translateY(-150%);
-    font-size: 0.8em;
+    transform: translateY(-200%);
+    font-size: 0.85em;
 }
 
 #searchInpt:focus + label::after,

@@ -1,7 +1,5 @@
 "use strict";
 
-//TODO: Separar formulario de busqueda de la lista de items.
-//TODO: Filtrado con palabras clave.
 //TODO: Usar iconos.
 
 /**
@@ -80,6 +78,45 @@ function createDataCell({icon, date: dateStr, name, description, url}) {
 }
 
 /**
+ * Filters the array of objects by
+ * looking at the name and
+ * description of each incident and
+ * showing only the items that pass
+ * the filter. After the filter is
+ * done, the DOM will be updated too.
+ * @param {string} filter The fitler that will be used to filter the data.
+ * @param {Array<Object>} data The data that will be used to update the DOM when filtering.
+ */
+function filterData(filter, data) {
+    filter = filter.toLowerCase();
+    const filteredData = data.filter(incident => {
+        const name = incident.name.toLowerCase();
+        const desc = incident.description.toLowerCase();
+        return name.includes(filter) || desc.includes(filter);
+    });
+    updateDom(filteredData);
+}
+
+/**
+ * This attaches a listener to the
+ * input whenever a user presses a
+ * key (keyup) and said listener
+ * Will then filter the DOM 
+ * accordingly.
+ * @param {Array<Object>} data The data that will be used to update the DOM when filtering.
+ */
+function attachToInput(data) {
+    const inputElem = document.getElementById("searchInpt");
+    console.log(inputElem);
+    inputElem.addEventListener("keyup", ev => {
+        if (ev.key === "Enter") {
+            ev.preventDefault();
+        }
+        filterData(inputElem.value, data);
+    });
+}
+
+/**
  * Updates the DOM of the website to
  *  display it to the user.
  * @param {Array<Object>} data The data that will be used to update the DOM
@@ -104,6 +141,7 @@ async function loadData(dataPath) {
     const data = await rawResult.json();
     console.table(data);
     updateDom(data);
+    attachToInput(data);
 }
 
 onload = () => {
