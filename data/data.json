@@ -1,82 +1,114 @@
 [
     {
-        "url": "https://duckduckgo.com",
+        "url": "https://www.esportznetwork.com/nintendo-cancels-the-big-house-online-smash-2020/",
+        "icon":"block.svg",
+        "alt": "This incident is about something getting blocked",
+        "date": "2020-11-09",
+        "name": "The Big House 2020",
+        "description": "Because of the pandemic \"The Big House\" 2020 event had to take place online and this forced organizers to use a software called Slippi to play the game online using emulators, but the big N fored organizers to cancel the event."
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=kJGcDU4esUY",
+        "icon":"law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
+        "date": "2019-07-14",
+        "name": "M royale (Infringio) Taken down",
+        "description": "A fanmade battle royale version of the original M game was created by a fan and the big N constantly issued takedown notices, even when the creator made different changes to the game."
+    },
+    {
+        "url": "https://finance.yahoo.com/news/arizona-couple-ordered-pay-nintendo-210700185.html",
+        "icon":"balance.svg",
+        "alt": "This incident was about someone having to pay compensation or any monetary problems caused by the big N",
+        "date": "2018-11-13",
+        "name": "Two ROM sites were ordered to pay millions and shut down",
+        "description": "Two ROM sites offered copies of different games and the big N filed a lawsuit and won, which forced the sites to pay millions and shut down the websites."
+    },
+    {
+        "url": "https://www.polygon.com/2018/7/22/17600008/nintendo-roms-lawsuit-cease-desist",
+        "icon":"law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
+        "date": "2018-07-22",
+        "name": "Two ROM sites were sued",
+        "description": "Two ROM sites offered copies of different games and the big N filed a lawsuit against the operators of the two websites."
+    },
+    {
+        "url": "http://web.archive.org/web/20211108065656/https://oripoke.wordpress.com/2016/10/20/the-explosion-and-fallout-of-pokemon-uranium/",
+        "icon":"law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
+        "date": "2016-09-21",
+        "name": "Uranium is taken down",
+        "description": "A fanmade game is created and a few weeks later all the download links are removed by it's creators, it was later revealed that the big N sent a legal leter to the creators"
+    },
+    {
+        "url": "https://kotaku.com/brilliant-fan-remake-of-metroid-ii-arrives-just-in-time-1784929739",
         "icon": "block.svg",
         "alt": "This incident is about something getting blocked",
-        "date": "2021-11-07",
-        "name": "item 1",
-        "description": "Lorem ipsum dolor sit amet, something consectetur adipiscing elit.\n Nullam sit amet ligula ac quam scelerisque pulvinar."
+        "date": "2016-08-06",
+        "name": "The original release AM2R gets blocked everywhere",
+        "description": "A fanmade remake of M2 got removed with takedowns by the big N and evey website that hosted the ROM received DMCA takedown notices."
     },
     {
-        "url": "https://duckduckgo.com",
-        "icon": "law.svg",
+        "url": "https://www.eurogamer.net/articles/2016-04-07-zeldas-browser-based-fan-remake-shut-down-by-nintendo",
+        "icon":"law.svg",
         "alt": "This incident was about something getting sued or a legal letter was sent",
-        "date": "2021-5-07",
-        "name": "item 2",
-        "description": "Lorem ipsum dolor sit amet, test consectetur adipiscing elit.\n Nullam sit amet ligula ac quam scelerisque pulvinar."
+        "date": "2016-04-07",
+        "name": "Fanmade Zelda 30 Tribute shuts down",
+        "description": "A group of fans made a voxel version of the first Zelda game, the big N issued a copyright strike and told them to remove the game."
     },
     {
-        "url": "https://duckduckgo.com",
-        "icon": "balance.svg",
-        "alt": "This incident was about something having to pay compensation or any monetary problems caused by the big N",
-        "date": "2021-8-07",
-        "name": "item 3",
-        "description": "Lorem ipsum dolor sit amet, thing consectetur adipiscing elit.\n Nullam sit amet ligula ac quam scelerisque pulvinar."
+        "url": "http://web.archive.org/web/20150403200612/https://roystanross.wordpress.com/super-mario-64-hd/",
+        "icon":"law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
+        "date": "2015-04-03",
+        "name": "Fanmade HD remake of M64",
+        "description" :"A Unity indie developer made a fan recreation of the first level of M64 and a few days later received a copyright infringement notice for the webplayer and the standalone builds of the game."
     },
     {
-        "url": "https://duckduckgo.com",
-        "icon": "block.svg",
+        "url": "https://kotaku.com/what-happened-after-nintendo-cracked-down-on-a-zelda-fa-1794176131",
+        "icon":"law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
+        "date": "2015-11-10",
+        "name": "\"Zelda Maker\" is taken down",
+        "description": "A fanmade \"Zelda Maker\" game was created and the big N copyright claimed the creator videos on Youtube and sent a DMCA notice to MediaFire where the game was hosted. The creator revamped the project with new assets and a new name."
+    },
+    {
+        "url": "https://www.bbc.com/news/technology-24612069",
+        "icon":"law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
+        "date": "2013-10-21",
+        "name": "Full Screen Maeio taken down",
+        "description": "A fanmade version of the NES classic was made to run on browsers with widescreen support, the big N took legal action and forced the creator to remove the working game."
+    },
+    {
+        "url": "https://kotaku.com/nintendo-wont-let-top-fighting-game-tournament-stream-s-724293474",
+        "icon":"block.svg",
         "alt": "This incident is about something getting blocked",
-        "date": "2020-1-07",
-        "name": "item 4",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n Nullam sit amet ligula ac quam scelerisque pulvinar."
+        "date": "2013-07-09",
+        "name": "Evo 2013",
+        "description": "Fans of SSBM raised thousands of dollars in charity to participate in EVO and the big N pushed to cancel the stream and then the event. In the end the big N decided to revert the decison"
     },
     {
-        "url": "https://duckduckgo.com",
-        "icon": "law.svg",
-        "alt": "This incident was about something getting sued or a legal letter was sent",
-        "date": "2021-11-07",
-        "name": "item 5",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n Nullam sit amet ligula ac quam scelerisque pulvinar."
-    },
-    {
-        "url": "https://duckduckgo.com",
-        "icon": "balance.svg",
-        "alt": "This incident was about something having to pay compensation or any monetary problems caused by the big N",
-        "date": "2021-11-07",
-        "name": "item 6",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n Nullam sit amet ligula ac quam scelerisque pulvinar."
-    },
-    {
-        "url": "https://duckduckgo.com",
-        "icon": "block.svg",
+        "url": "http://web.archive.org/web/20181116062241/http://www.majorleaguegaming.com/news/league-speak-with-sundance-super-smash-bros-brawl-stream",
+        "icon":"block.svg",
         "alt": "This incident is about something getting blocked",
-        "date": "2021-11-07",
-        "name": "item 7",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n Nullam sit amet ligula ac quam scelerisque pulvinar."
+        "date": "2010-04-15",
+        "name": "MLG Brawl 2010",
+        "description": "The MLG Orlando 2010 had a SSBB tournament and wasn't allowed to stream the tournament online because the big N didn't give MLG the necessary live streaming rights."
     },
     {
-        "url": "https://duckduckgo.com",
+        "url": "https://www.engadget.com/2010-04-02-nintendo-shuts-down-fan-made-pokemon-mmo.html",
         "icon": "law.svg",
         "alt": "This incident was about something getting sued or a legal letter was sent",
-        "date": "2021-11-07",
-        "name": "item 8",
-        "description": "Lorem ipsum dolor sit amet, test consectetur adipiscing elit.\n Nullam sit amet ligula ac quam scelerisque pulvinar."
+        "date": "2010-04-02",
+        "name": "A fan made Pokémon MMO was shut down",
+        "description": "A group of fans created an MMO version of Pokémon and the big N sent a cease and desist letter requesting them to take down the website and surrender the domain name too."
     },
     {
-        "url": "https://duckduckgo.com",
-        "icon": "balance.svg",
-        "alt": "This incident was about something having to pay compensation or any monetary problems caused by the big N",
-        "date": "2021-11-07",
-        "name": "item 9",
-        "description": "Lorem ipsum dolor sit amet, a thing consectetur adipiscing elit.\n Nullam sit amet ligula ac quam scelerisque pulvinar."
-    },
-    {
-        "url": "https://duckduckgo.com",
-        "icon": "law.svg",
+        "url": "http://web.archive.org/web/20060820035536/http://www.consoleclassix.com/letter_from_noa.php",
+        "icon":"law.svg",
         "alt": "This incident was about something getting sued or a legal letter was sent",
-        "date": "2021-11-07",
-        "name": "item 10",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n Nullam sit amet ligula ac quam scelerisque pulvinar."
+        "date": "2001-06-01",
+        "name": "Console Clasix received a cease & desist letter",
+        "description": "Console Clasix, a rental service that operates with thousands of physical ROMs, was sent a cease & desist letter to stop the service. They replied stating why it wasn't illegal and never heard from the big N again."
     }
 ]
