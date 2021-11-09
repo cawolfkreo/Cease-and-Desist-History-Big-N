@@ -21,10 +21,8 @@
 
     /*font*/
     --font: pretendo, 'Franklin Gothic Medium', Arial, sans-serif;
-    --font-2: 'Franklin Gothic Medium', Arial, sans-serif;
+    --font-2: 'Mark', 'Franklin Gothic Medium', Arial, sans-serif;
 }
-
-
 
 /* ==================
        Tags
@@ -95,6 +93,11 @@ footer {
     margin: 5vmin 2.6vmin;
 }
 
+.dataCell {
+    font-family: var(--font-2);
+    font-size: 1.17em;
+}
+
 .dataCell > a {
     text-decoration: none;
     color: var(--foreground-color);
@@ -105,10 +108,8 @@ footer {
     filter: invert(1);
 }
 
-.dateText {
-    font-size: 1.17em;
-    font-weight: 900;
-    font-family: var(--font-2);
+.dateDate {
+    font-weight: bold;
 }
 
 .form {
