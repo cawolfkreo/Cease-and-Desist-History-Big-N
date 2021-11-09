@@ -3,7 +3,7 @@ I would love to say that the information collected here is perfect and there is 
 
 
 ## Without making or using a Github account
-The simplest way (for you) to propose a change is tho tweet me or send me a dm on [my twitter](https://twitter.com/Camilozvi). I might not be able to reply to you right away but once I'm free nad I've seen your message, I'll probably include the changed you proposed or reply to you if I need some clarification or something.
+The simplest way (for you) to propose a change is to tweet me or send me a dm on [my twitter](https://twitter.com/Camilozvi). I might not be able to reply to you right away but once I'm free nad I've seen your message, I'll probably include the changed you proposed or reply to you if I need some clarification or something.
 
 ## Making or Using a Github account
 To make things easy for me you can either make an issue or submit a pull request. But before you jump into any of those, please try to follow these guidelines:
