@@ -160,6 +160,10 @@ footer {
     transition: var(--transition-forms);
 }
 
+.suggestions {
+    font-family: var(--font-2);
+}
+
 /* ==================
         IDs
 ================== */
