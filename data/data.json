@@ -1,114 +1,234 @@
 [
     {
+        "url": "https://kotaku.com/nintendo-back-on-its-bullshit-shuts-down-another-smash-1847585646",
+        "icon":"block.svg",
+        "alt":"This incident is about something getting blocked or restricted",
+        "date":"2021-02-2",
+        "name":"Mainstage 2021 Project+ tournament was shut down.",
+        "description":"After riptide shut down their project events, the orginizers of Mainstage 2021 decided to remove Project+ tournaments on their own."
+    },
+    {
+        "url": "https://kotaku.com/nintendo-back-on-its-bullshit-shuts-down-another-smash-1847585646",
+        "icon":"block.svg",
+        "alt":"This incident is about something getting blocked or restricted",
+        "date":"2021-08-30",
+        "name":"Riptide Project+ tournament was shut down.",
+        "description":"The company contacted the organizers of the event and discouraged them from making any tournaments or setups regarding Project+."
+    },
+    {
+        "url": "https://www.polygon.com/2020/12/7/22158534/nintendo-etikon-joy-con-controllers-shut-down-cease-and-desist",
+        "icon":"block.svg",
+        "alt": "This incident is about something getting blocked or restricted",
+        "date":"2020-12-07",
+        "name":"The big N shuts down \"Etikon\" controller memorial",
+        "description": "A legal threat from the big N has shut down the manufacturing and sale of custom-designed Joy-Con controllers honoring Desmond “Etika” Amofah."
+    },
+    {
+        "url": "https://dotesports.com/fgc/news/nintendo-cancels-splatoon-2-na-open-stream-after-teams-use-freemelee-names-in-support-of-super-smash-bros-melee-community",
+        "icon":"block.svg",
+        "alt": "This incident is about something getting blocked or restricted",
+        "date":"2020-12-05",
+        "name":"The Splat 2 stream was canceled",
+        "description": "The NA stream for Splat 2 was cancelled when the company realized teams used #FreeMelee on their names in support for the SSBM community."
+    },
+    {
+        "url": "https://dotesports.com/streaming/news/multiple-streamers-banned-by-nintendo-for-playing-hyrule-warriors-age-of-calamity",
+        "icon":"block.svg",
+        "alt": "This incident is about something getting blocked or restricted",
+        "date":"2020-11-20",
+        "name": "Multiple streamers banned by the big N for playing HW:AC",
+        "description": "Multiple streamers where banned on twitch for playing the game early, even when the game came out in certain countries 12 hours before and even if the creator was streaming in countries where the game was already out."
+    },
+    {
         "url": "https://www.esportznetwork.com/nintendo-cancels-the-big-house-online-smash-2020/",
         "icon":"block.svg",
-        "alt": "This incident is about something getting blocked",
-        "date": "2020-11-09",
-        "name": "The Big House 2020",
+        "alt": "This incident is about something getting blocked or restricted",
+        "date":"2020-11-09",
+        "name":"The Big House 2020",
         "description": "Because of the pandemic \"The Big House\" 2020 event had to take place online and this forced organizers to use a software called Slippi to play the game online using emulators, but the big N forced organizers to cancel the event."
+    },
+    {
+        "url": "https://www.eurogamer.net/articles/2020-09-03-everything-announced-in-nintendos-super-mario-bros-35th-anniversary-direct",
+        "icon":"block.svg",
+        "alt": "This incident is about something getting blocked or restricted",
+        "date":"2020-09-18",
+        "name":"SM 3D A-S announcement shows the game will have limited release",
+        "description": "The game includes re-releases of three iconic 3D M games was announced but will only have a limited run, after march 31st 2021 the game is not on the eshop or stores."
+    },
+    {
+        "url": "https://www.eurogamer.net/articles/2020-09-03-the-original-super-mario-bros-is-getting-the-battle-royale-treatment",
+        "icon":"block.svg",
+        "alt": "This incident is about something getting blocked or restricted",
+        "date":"2020-09-18",
+        "name":"SM 35 announcement shows the game will have limited time to play",
+        "description": "The game was similar to Tetris 99 where you play the original MB game against 35 other players, a similar concept to a battle royale. It was free for members of the Online service and after march 31st 2021 the game was shut down."
+    },
+    {
+        "url": "https://www.eurogamer.net/articles/2020-02-01-just-one-animal-crossing-new-horizons-island-per-switch-nintendo-confirms",
+        "icon":"block.svg",
+        "alt": "This incident is about something getting blocked or restricted",
+        "date":"2020-02-1",
+        "name":"AC:NH Only allows 1 island per console",
+        "description":"No matter how many accounts or copies of the game players have, the game only allows one island per console. Previous versions of the franchise worked similarly on past hardware, but the company did not provide an explanation this time."
+    },
+    {
+        "url": "https://www.nintendolife.com/news/2019/08/nintendo_music_copyright_takedowns_intensify_as_another_prominent_youtuber_gets_hit",
+        "icon":"law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
+        "date":"2019-08-14",
+        "name":"Copyright takedowns are sent to Youtube game music channels",
+        "description": "The big N sent DMCA Takedowns to Youtube channels that posted official music of their games."
     },
     {
         "url": "https://www.youtube.com/watch?v=kJGcDU4esUY",
         "icon":"law.svg",
         "alt": "This incident was about something getting sued or a legal letter was sent",
-        "date": "2019-07-14",
-        "name": "M royale (Infringio) Taken down",
+        "date":"2019-07-14",
+        "name":"M royale (Infringio) Taken down",
         "description": "A fanmade battle royale version of the original M game was created by a fan and the big N constantly issued takedown notices, even when the creator made different changes to the game."
+    },
+    {
+        "url": "https://www.eurogamer.net/articles/2018-11-29-nintendo-scraps-creators-program-making-life-much-easier-for-youtubers",
+        "icon":"block.svg",
+        "alt": "This incident is about something getting blocked or restricted",
+        "date":"2018-11-29",
+        "name":"The big N stops the Creators Program",
+        "description": "The big N shut down the Creators Program that allowed content creators to create videos on Youtube of their videogames in exchange for a cut of the ad revenue."
     },
     {
         "url": "https://finance.yahoo.com/news/arizona-couple-ordered-pay-nintendo-210700185.html",
         "icon":"balance.svg",
         "alt": "This incident was about someone having to pay compensation or any monetary problems caused by the big N",
-        "date": "2018-11-13",
-        "name": "Two ROM sites were ordered to pay millions and shut down",
+        "date":"2018-11-13",
+        "name":"Two ROM sites were ordered to pay millions and shut down",
         "description": "Two ROM sites offered copies of different games and the big N filed a lawsuit and won, which forced the sites to pay millions and shut down the websites."
     },
     {
         "url": "https://www.polygon.com/2018/7/22/17600008/nintendo-roms-lawsuit-cease-desist",
         "icon":"law.svg",
         "alt": "This incident was about something getting sued or a legal letter was sent",
-        "date": "2018-07-22",
-        "name": "Two ROM sites were sued",
+        "date":"2018-07-22",
+        "name":"Two ROM sites were sued",
         "description": "Two ROM sites offered copies of different games and the big N filed a lawsuit against the operators of the two websites."
+    },
+    {
+        "url": "https://www.gameinformer.com/b/news/archive/2017/09/29/nintendo-updates-youtube-partners-program-to-restrict-live-streaming.aspx",
+        "icon":"block.svg",
+        "alt": "This incident is about something getting blocked or restricted",
+        "date":"2017-09-29",
+        "name":"The Creators Program restrictred Youtube partners to Livestream",
+        "description": "A policy update to the Creators program told Youtube creators that they weren't allowed to broadcast content on Youtube Live from their accounts."
     },
     {
         "url": "http://web.archive.org/web/20211108065656/https://oripoke.wordpress.com/2016/10/20/the-explosion-and-fallout-of-pokemon-uranium/",
         "icon":"law.svg",
         "alt": "This incident was about something getting sued or a legal letter was sent",
-        "date": "2016-09-21",
-        "name": "Uranium is taken down",
+        "date":"2016-09-21",
+        "name":"Uranium is taken down",
         "description": "A fanmade game is created and a few weeks later all the download links are removed by it's creators, it was later revealed that the big N sent a legal leter to the creators"
     },
     {
+        "url": "https://www.wired.co.uk/article/nintendo-removes-500-games",
+        "icon":"law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
+        "date":"2016-09-06",
+        "name":"Takedown of more than 500 indie games",
+        "description": "526 fanmade inde games based on games by the big N received a DMCA takedown on Gamejolt, a website dedicated to hosting indie games."
+    },
+    {
         "url": "https://kotaku.com/brilliant-fan-remake-of-metroid-ii-arrives-just-in-time-1784929739",
-        "icon": "block.svg",
-        "alt": "This incident is about something getting blocked",
-        "date": "2016-08-06",
-        "name": "The original release AM2R gets blocked everywhere",
+        "icon":"block.svg",
+        "alt": "This incident is about something getting blocked or restricted",
+        "date":"2016-08-06",
+        "name":"The original release AM2R gets blocked everywhere",
         "description": "A fanmade remake of M2 got removed with takedowns by the big N and evey website that hosted the ROM received DMCA takedown notices."
     },
     {
         "url": "https://www.eurogamer.net/articles/2016-04-07-zeldas-browser-based-fan-remake-shut-down-by-nintendo",
         "icon":"law.svg",
         "alt": "This incident was about something getting sued or a legal letter was sent",
-        "date": "2016-04-07",
-        "name": "Fanmade Zelda 30 Tribute shuts down",
+        "date":"2016-04-07",
+        "name":"Fanmade Zelda 30 Tribute shuts down",
         "description": "A group of fans made a voxel version of the first Zelda game, the big N issued a copyright strike and told them to remove the game."
     },
     {
         "url": "http://web.archive.org/web/20150403200612/https://roystanross.wordpress.com/super-mario-64-hd/",
         "icon":"law.svg",
         "alt": "This incident was about something getting sued or a legal letter was sent",
-        "date": "2015-04-03",
-        "name": "Fanmade HD remake of M64",
+        "date":"2015-04-03",
+        "name":"Fanmade HD remake of M64",
         "description" :"A Unity indie developer made a fan recreation of the first level of M64 and a few days later received a copyright infringement notice for the webplayer and the standalone builds of the game."
     },
     {
         "url": "https://kotaku.com/what-happened-after-nintendo-cracked-down-on-a-zelda-fa-1794176131",
         "icon":"law.svg",
         "alt": "This incident was about something getting sued or a legal letter was sent",
-        "date": "2015-11-10",
-        "name": "\"Zelda Maker\" is taken down",
+        "date":"2015-11-10",
+        "name":"\"Zelda Maker\" is taken down",
         "description": "A fanmade \"Zelda Maker\" game was created and the big N copyright claimed the creator videos on Youtube and sent a DMCA notice to MediaFire where the game was hosted. The creator revamped the project with new assets and a new name."
+    },
+    {
+        "url": "https://arstechnica.com/gaming/2015/01/nintendo-to-share-up-to-70-percent-of-ad-revenue-with-game-youtubers",
+        "icon":"balance.svg",
+        "alt": "This incident was about someone having to pay compensation or any monetary problems caused by the big N",
+        "date":"2015-01-29",
+        "name":"The big N shared cut of content creators revenue on youtube",
+        "description": "The big N created the \"Creators Program\", to allow Youtube users to create content from their games but only the ones white listed from the company, and giving the big N a cut of the ad revenue of each video."
+    },
+    {
+        "url": "https://www.bbc.com/news/technology-27321200",
+        "icon":"block.svg",
+        "alt": "This incident is about something getting blocked or restricted",
+        "date":"2014-05-08",
+        "name":"The big N says 'No' to gay game charaters",
+        "description": "After the company released Tomodachi Life, a life-simulation game, a fan launched a social media campaign asking to allow same-sex relationships in the game. The company replied that \"never intended to make any form of social commentary with the game\"."
     },
     {
         "url": "https://www.bbc.com/news/technology-24612069",
         "icon":"law.svg",
         "alt": "This incident was about something getting sued or a legal letter was sent",
-        "date": "2013-10-21",
-        "name": "Full Screen MB taken down",
+        "date":"2013-10-21",
+        "name":"Full Screen MB taken down",
         "description": "A fanmade version of the NES game was made to run on browsers with widescreen support, the big N took legal action and forced the creator to remove the working game."
     },
     {
         "url": "https://kotaku.com/nintendo-wont-let-top-fighting-game-tournament-stream-s-724293474",
         "icon":"block.svg",
-        "alt": "This incident is about something getting blocked",
-        "date": "2013-07-09",
-        "name": "Evo 2013",
+        "alt": "This incident is about something getting blocked or restricted",
+        "date":"2013-07-09",
+        "name":"Evo 2013",
         "description": "Fans of SSBM raised thousands of dollars in charity to participate in EVO and the big N pushed to cancel the stream and then the event. In the end the big N decided to revert the decison"
+    },
+    {
+        "url": "https://www.polygon.com/2013/5/16/4336114/nintendo-claims-ad-revenue-on-user-generated-youtube-videos",
+        "icon":"balance.svg",
+        "alt": "This incident was about someone having to pay compensation or any monetary problems caused by the big N",
+        "date":"2013-05-15",
+        "name":"The big N claimed ad revenue on videos from users on youtube",
+        "description": "The big N used the Youtube content ID to claim revenue from user generated videos. The company registered it's copyright content on the system in order to include or claim money from video ads."
     },
     {
         "url": "http://web.archive.org/web/20181116062241/http://www.majorleaguegaming.com/news/league-speak-with-sundance-super-smash-bros-brawl-stream",
         "icon":"block.svg",
-        "alt": "This incident is about something getting blocked",
-        "date": "2010-04-15",
-        "name": "MLG Brawl 2010",
+        "alt": "This incident is about something getting blocked or restricted",
+        "date":"2010-04-15",
+        "name":"MLG Brawl 2010",
         "description": "The MLG Orlando 2010 had a SSBB tournament and wasn't allowed to stream the tournament online because the big N didn't give MLG the necessary live streaming rights."
     },
     {
         "url": "https://www.engadget.com/2010-04-02-nintendo-shuts-down-fan-made-pokemon-mmo.html",
-        "icon": "law.svg",
+        "icon":"law.svg",
         "alt": "This incident was about something getting sued or a legal letter was sent",
-        "date": "2010-04-02",
-        "name": "A fan made Pokémon MMO was shut down",
+        "date":"2010-04-02",
+        "name":"A fan made Pokémon MMO was shut down",
         "description": "A group of fans created an MMO version of Pokémon and the big N sent a cease and desist letter requesting them to take down the website and surrender the domain name too."
     },
     {
         "url": "http://web.archive.org/web/20060820035536/http://www.consoleclassix.com/letter_from_noa.php",
         "icon":"law.svg",
         "alt": "This incident was about something getting sued or a legal letter was sent",
-        "date": "2001-06-01",
-        "name": "Console Clasix received a cease & desist letter",
+        "date":"2001-06-01",
+        "name":"Console Clasix received a cease & desist letter",
         "description": "Console Clasix, a rental service that operates with thousands of physical ROMs, was sent a cease & desist letter to stop the service. They replied stating why it wasn't illegal and never heard from the big N again."
     }
 ]
