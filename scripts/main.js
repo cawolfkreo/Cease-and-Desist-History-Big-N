@@ -71,7 +71,7 @@ function createDataCell({icon, alt, date: dateStr, name, description, url}) {
     anchor.appendChild(iconElem);
 
     dateStr = formatDate(new Date(dateStr));
-    const dateElem = createElement("p", {className: "dateText", innerText: dateStr});
+    const dateElem = createElement("p", {className: "dateDate", innerText: dateStr});
     anchor.appendChild(dateElem);
 
     const nameElem = createElement("h3", {innerText: name});
