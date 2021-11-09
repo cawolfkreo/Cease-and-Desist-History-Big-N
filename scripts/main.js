@@ -129,6 +129,8 @@ function attachToInput(data) {
  */
 function updateDom(data) {
     const contentElem = document.querySelector(".grid");
+    const countElem = document.querySelector(".count");
+    countElem.innerText = `Displaying ${data.length} items.`
     contentElem.innerHTML = "";
 
     for (const incident of data) {

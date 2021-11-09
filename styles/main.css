@@ -92,6 +92,9 @@ footer {
     flex: 1 0 auto;
     margin: 5vmin 2.6vmin;
 }
+.count {
+    font-weight: bold;
+}
 
 .dataCell {
     font-family: var(--font-2);
@@ -160,8 +163,9 @@ footer {
     transition: var(--transition-forms);
 }
 
-.suggestions {
+.suggestions, .count {
     font-family: var(--font-2);
+    font-size: 1.17em;
 }
 
 /* ==================
