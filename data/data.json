@@ -2,7 +2,7 @@
     {
         "url": "https://kotaku.com/nintendo-back-on-its-bullshit-shuts-down-another-smash-1847585646",
         "icon":"block.svg",
-        "alt":"This incident is about something getting blocked or restricted",
+        "alt": "This incident is about something getting blocked or restricted",
         "date":"2021-08-30",
         "name":"Riptide Project+ tournament was shut down.",
         "description":"The company contacted the organizers of the event and discouraged them from making any tournaments or setups regarding Project+."
@@ -48,6 +48,14 @@
         "description": "Because of the pandemic \"The Big House\" 2020 event had to take place online and this forced organizers to use a software called Slippi to play the game online using emulators, but the big N forced organizers to cancel the event."
     },
     {
+        "url": "https://torrentfreak.com/nintendos-lawyers-nuke-the-missing-link-fangame-with-copyright-complaint-201013/",
+        "icon":"law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
+        "date":"2020-10-13",
+        "name":"TLoZ the missing Link takedown",
+        "description": "A game made with the engine of OoT wa created by fans and after a few months the big N issued a copyright takedown of the game."
+    },
+    {
         "url": "https://www.eurogamer.net/articles/2020-09-03-everything-announced-in-nintendos-super-mario-bros-35th-anniversary-direct",
         "icon":"block.svg",
         "alt": "This incident is about something getting blocked or restricted",
@@ -64,12 +72,28 @@
         "description": "The game was similar to Tetris 99 where you play the original MB game against 35 other players, a similar concept to a battle royale. It was free for members of the Online service and after march 31st 2021 the game was shut down."
     },
     {
+        "url": "https://torrentfreak.com/nintendo-lawyers-file-copyright-complaints-against-super-mario-64-pc-port-200508/",
+        "icon":"law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
+        "date":"2020-05-07",
+        "name":"SM 64 PC port",
+        "description": "A fan made pc port of the game and the company filed copyright takedowns for any video on youtube showcasing the game and websites hosting the game."
+    },
+    {
         "url": "https://www.eurogamer.net/articles/2020-02-01-just-one-animal-crossing-new-horizons-island-per-switch-nintendo-confirms",
         "icon":"block.svg",
         "alt": "This incident is about something getting blocked or restricted",
         "date":"2020-02-1",
         "name":"AC:NH Only allows 1 island per console",
         "description":"No matter how many accounts or copies of the game players have, the game only allows one island per console. Previous versions of the franchise worked similarly on past hardware, but the company did not provide an explanation this time."
+    },
+    {
+        "url": "https://torrentfreak.com/nintendo-takes-down-facebook-tooled-donkey-kong-remake-190930/",
+        "icon":"law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
+        "date":"2019-09-30",
+        "name":"DK remake receives takedown",
+        "description": "A company created a remake of the game as a technical demo on Github and the big N sent DMCA takedowns of the project and every fork made to it."
     },
     {
         "url": "https://www.nintendolife.com/news/2019/08/nintendo_music_copyright_takedowns_intensify_as_another_prominent_youtuber_gets_hit",
@@ -120,6 +144,22 @@
         "description": "A policy update to the Creators program told Youtube creators that they weren't allowed to broadcast content on Youtube Live from their accounts."
     },
     {
+        "url": "https://kotaku.com/nintendo-files-copyright-strikes-against-super-mario-64-1818580029",
+        "icon":"law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
+        "date":"2017-09-20",
+        "name":"SM 64 Online gets Copyright takedowns and strikes",
+        "description": "The SM 64 online game project made by a fan was removed from Patreon and Youtube after the big N sent copyright claims and takedown notices."
+    },
+    {
+        "url": "https://torrentfreak.com/nintendo-shuts-down-donkey-kong-remake-for-roku-170630/",
+        "icon":"law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
+        "date":"2017-06-30",
+        "name":"DK remake for Roku was shutdown",
+        "description": "A fan made a remake of the game for Roku as an excercise. But the company filed a DMCA takedown and the game was removed from github."
+    },
+    {
         "url": "http://web.archive.org/web/20211108065656/https://oripoke.wordpress.com/2016/10/20/the-explosion-and-fallout-of-pokemon-uranium/",
         "icon":"law.svg",
         "alt": "This incident was about something getting sued or a legal letter was sent",
@@ -152,6 +192,14 @@
         "description": "A group of fans made a voxel version of the first Zelda game, the big N issued a copyright strike and told them to remove the game."
     },
     {
+        "url": "https://kotaku.com/what-happened-after-nintendo-cracked-down-on-a-zelda-fa-1794176131",
+        "icon":"law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
+        "date":"2015-11-10",
+        "name":"\"Zelda Maker\" is taken down",
+        "description": "A fanmade \"Zelda Maker\" game was created and the big N copyright claimed the creator videos on Youtube and sent a DMCA notice to MediaFire where the game was hosted. The creator revamped the project with new assets and a new name."
+    },
+    {
         "url": "http://web.archive.org/web/20150403200612/https://roystanross.wordpress.com/super-mario-64-hd/",
         "icon":"law.svg",
         "alt": "This incident was about something getting sued or a legal letter was sent",
@@ -160,12 +208,12 @@
         "description" :"A Unity indie developer made a fan recreation of the first level of M64 and a few days later received a copyright infringement notice for the webplayer and the standalone builds of the game."
     },
     {
-        "url": "https://kotaku.com/what-happened-after-nintendo-cracked-down-on-a-zelda-fa-1794176131",
-        "icon":"law.svg",
-        "alt": "This incident was about something getting sued or a legal letter was sent",
-        "date":"2015-11-10",
-        "name":"\"Zelda Maker\" is taken down",
-        "description": "A fanmade \"Zelda Maker\" game was created and the big N copyright claimed the creator videos on Youtube and sent a DMCA notice to MediaFire where the game was hosted. The creator revamped the project with new assets and a new name."
+        "url": "https://www.destructoid.com/nintendos-cracking-down-on-speedrunning-and-rom-hacking-videos/",
+        "icon":"block.svg",
+        "alt": "This incident is about something getting blocked or restricted",
+        "date":"2015-09-10",
+        "name":"Videos about speedrunns and ROM hacks are removed",
+        "description": "The company removed videos on Youtube about ROM hacks of their games, specifically speedruns and videos showcasing ROM hacks."
     },
     {
         "url": "https://arstechnica.com/gaming/2015/01/nintendo-to-share-up-to-70-percent-of-ad-revenue-with-game-youtubers",
