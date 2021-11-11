@@ -34,10 +34,18 @@
     {
         "url": "https://www.eurogamer.net/articles/2021-04-17-nintendo-suing-switch-hacker-gary-bowser",
         "icon":"law.svg",
-        "alt":"This incident was about something getting sued or a legal letter was sent",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
         "date":"2021-04-17",
         "name":"Gary Bowser is sued",
         "description": "A 51 year old Canadian and console hacker is sued by the company. According the the big N he was a member of the hack group, Team Xecuter."
+    },
+    {
+        "url": "https://www.polygon.com/22381771/nintendo-dmca-bowser-penis-copyright-patreon-sfm",
+        "icon":"law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
+        "date":"2021-04-13",
+        "name":"Bowser's genital hit with copyright takedown",
+        "description": "A 3D modeler that makes NSFW art was hit by a copyright takedown on Patreon and it's artwork was removed from the platform. The 3D model is now open source and free to download."
     },
     {
         "url": "https://kotaku.com/nintendo-back-on-its-bullshit-shuts-down-another-smash-1847585646",
@@ -96,6 +104,14 @@
         "description": "The big N filed a lawsuit against companies reselling hacking devices for the switch and won the case. The resellers had to pay $2 million in damages after they lost the lawsuit."
     },
     {
+        "url": "https://www.polygon.com/2020/9/21/21449786/nintendo-dmca-porn-sex-hentai-princess-peach-untold-tale",
+        "icon":"law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
+        "date":"2020-09-21",
+        "name":"A sex game received a takedown",
+        "description": "A fan porn made game of a big N character received a DMCA Takedown on Github. The company said that the game didn't fall under fair use and Github took down the repository and website."
+    },
+    {
         "url": "https://www.eurogamer.net/articles/2020-09-03-everything-announced-in-nintendos-super-mario-bros-35th-anniversary-direct",
         "icon":"block.svg",
         "alt": "This incident is about something getting blocked or restricted",
@@ -110,6 +126,22 @@
         "date":"2020-09-18",
         "name":"SM 35 announcement shows the game will have limited time to play",
         "description": "The game was similar to Tetris 99 where you play the original MB game against 35 other players, a similar concept to a battle royale. It was free for members of the Online service and after march 31st 2021 the game was shut down."
+    },
+    {
+        "url": "https://torrentfreak.com/nintendo-wants-permanent-injunction-to-shut-down-switch-piracy-hack-stores-200907/",
+        "icon":"block.svg",
+        "alt": "This incident is about something getting blocked or restricted",
+        "date":"2020-09-07",
+        "name":"The big N wants permantent Injuction to piracy stores",
+        "description": "The company asked the court to issue a default judgment and permanent injunction to shut down several stores that sell Team-Xecuter's Switch hacks and mods."
+    },
+    {
+        "url": "https://torrentfreak.com/nintendo-copyright-infringement-threats-shut-down-switch-payload-injector-200824/",
+        "icon":"law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
+        "date":"2020-08-24",
+        "name":"Open source payload injector is Takendown",
+        "description": "An Open Source payload injector, it loads custom firmware on the console, received a cease and desist notice. The creator decided to shut down the project and contacted the company through his lawyer to settle the matter."
     },
     {
         "url": "https://www.videogameschronicle.com/news/nintendo-lawsuits-target-switch-hackers/",
