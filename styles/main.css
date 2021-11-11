@@ -14,6 +14,7 @@
     /*colors*/
     --main-color: #de0000;
     --foreground-color: #fffdfc;
+    --secondary-color: #e2e0d8;
     --foter-color: #A30303;
 
     /*transitions*/
@@ -166,6 +167,15 @@ footer {
 .suggestions, .count {
     font-family: var(--font-2);
     font-size: 1.17em;
+}
+
+.suggestions > a {
+    color: var(--foreground-color);
+    font-weight: bold;
+}
+
+.suggestions > a:hover {
+    color: var(--secondary-color);
 }
 
 /* ==================
