@@ -1,11 +1,51 @@
 [
     {
+        "url": "https://www.eurogamer.net/articles/2021-11-02-switch-hacker-gary-bowser-pleads-guilty",
+        "icon":"balance.svg",
+        "alt": "This incident was about someone having to pay compensation or any monetary problems caused by the big N",
+        "date":"2021-11-02",
+        "name":"Gary Bowser pleads guilty",
+        "description": "The Canadian Hacker was found guilty and now has to pay $4.5 million, and could also face up to 10 years in jail."
+    },
+    {
         "url": "https://kotaku.com/nintendo-back-on-its-bullshit-shuts-down-another-smash-1847585646",
         "icon":"block.svg",
         "alt": "This incident is about something getting blocked or restricted",
         "date":"2021-08-30",
         "name":"Riptide Project+ tournament was shut down.",
         "description":"The company contacted the organizers of the event and discouraged them from making any tournaments or setups regarding Project+."
+    },
+    {
+        "url": "https://www.ign.com/articles/now-defunct-romuniverse-ordered-to-destroy-all-pirated-nintendo-games",
+        "icon":"block.svg",
+        "alt":"This incident is about something getting blocked or restricted",
+        "date":"2021-08-14",
+        "name":"RomUniverse owner is ordered to destroy it's pirated games",
+        "description": "The owner of the defunct site was ordered to destroy all of the big N pirated games they had. This was done anfter the owner hinted he might try to re-stablish the site again."
+    },
+    {
+        "url": "https://www.gamesindustry.biz/articles/2021-06-01-nintendo-to-get-usd2-1m-in-damages-in-lawsuit-against-romuniverse",
+        "icon":"balance.svg",
+        "alt": "This incident was about someone having to pay compensation or any monetary problems caused by the big N",
+        "date":"2021-06-01",
+        "name":"RomUniverse loses the lawsuit and has to pay millions",
+        "description":"The ROM site, RomUniverse loses the lawsuit filed by the big N and now it's forced to pay $2.1 millions in damages to the company."
+    },
+    {
+        "url": "https://www.eurogamer.net/articles/2021-04-17-nintendo-suing-switch-hacker-gary-bowser",
+        "icon":"law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
+        "date":"2021-04-17",
+        "name":"Gary Bowser is sued",
+        "description": "A 51 year old Canadian and console hacker is sued by the company. According the the big N he was a member of the hack group, Team Xecuter."
+    },
+    {
+        "url": "https://www.polygon.com/22381771/nintendo-dmca-bowser-penis-copyright-patreon-sfm",
+        "icon":"law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
+        "date":"2021-04-13",
+        "name":"Bowser's genital hit with copyright takedown",
+        "description": "A 3D modeler that makes NSFW art was hit by a copyright takedown on Patreon and it's artwork was removed from the platform. The 3D model is now open source and free to download."
     },
     {
         "url": "https://kotaku.com/nintendo-back-on-its-bullshit-shuts-down-another-smash-1847585646",
@@ -56,6 +96,22 @@
         "description": "A game made with the engine of OoT wa created by fans and after a few months the big N issued a copyright takedown of the game."
     },
     {
+        "url": "https://www.videogameschronicle.com/news/nintendo-wins-2-million-in-damages-from-switch-hacking-device-seller/",
+        "icon":"balance.svg",
+        "alt": "This incident was about someone having to pay compensation or any monetary problems caused by the big N",
+        "date":"2020-10-01",
+        "name":"Resellers of hacking device have to pay millions",
+        "description": "The big N filed a lawsuit against companies reselling hacking devices for the switch and won the case. The resellers had to pay $2 million in damages after they lost the lawsuit."
+    },
+    {
+        "url": "https://www.polygon.com/2020/9/21/21449786/nintendo-dmca-porn-sex-hentai-princess-peach-untold-tale",
+        "icon":"law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
+        "date":"2020-09-21",
+        "name":"A sex game received a takedown",
+        "description": "A fan porn made game of a big N character received a DMCA Takedown on Github. The company said that the game didn't fall under fair use and Github took down the repository and website."
+    },
+    {
         "url": "https://www.eurogamer.net/articles/2020-09-03-everything-announced-in-nintendos-super-mario-bros-35th-anniversary-direct",
         "icon":"block.svg",
         "alt": "This incident is about something getting blocked or restricted",
@@ -72,6 +128,30 @@
         "description": "The game was similar to Tetris 99 where you play the original MB game against 35 other players, a similar concept to a battle royale. It was free for members of the Online service and after march 31st 2021 the game was shut down."
     },
     {
+        "url": "https://torrentfreak.com/nintendo-wants-permanent-injunction-to-shut-down-switch-piracy-hack-stores-200907/",
+        "icon":"block.svg",
+        "alt": "This incident is about something getting blocked or restricted",
+        "date":"2020-09-07",
+        "name":"The big N wants permantent Injuction to piracy stores",
+        "description": "The company asked the court to issue a default judgment and permanent injunction to shut down several stores that sell Team-Xecuter's Switch hacks and mods."
+    },
+    {
+        "url": "https://torrentfreak.com/nintendo-copyright-infringement-threats-shut-down-switch-payload-injector-200824/",
+        "icon":"law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
+        "date":"2020-08-24",
+        "name":"Open source payload injector is Takendown",
+        "description": "An Open Source payload injector, it loads custom firmware on the console, received a cease and desist notice. The creator decided to shut down the project and contacted the company through his lawyer to settle the matter."
+    },
+    {
+        "url": "https://www.videogameschronicle.com/news/nintendo-lawsuits-target-switch-hackers/",
+        "icon":"law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
+        "date":"2020-05-19",
+        "name":"Lawsuits are sent to resellers of switch hacking devices",
+        "description": "The big N filed two lawsuits against resellers of devices made to hack the switch console and allow users to play pirated games on all models of the console."
+    },
+    {
         "url": "https://torrentfreak.com/nintendo-lawyers-file-copyright-complaints-against-super-mario-64-pc-port-200508/",
         "icon":"law.svg",
         "alt": "This incident was about something getting sued or a legal letter was sent",
@@ -86,6 +166,14 @@
         "date":"2020-02-1",
         "name":"AC:NH Only allows 1 island per console",
         "description":"No matter how many accounts or copies of the game players have, the game only allows one island per console. Previous versions of the franchise worked similarly on past hardware, but the company did not provide an explanation this time."
+    },
+    {
+        "url": "https://www.gamesindustry.biz/articles/2019-09-11-nintendo-sues-rom-site",
+        "icon":"law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
+        "date":"2019-09-11",
+        "name":"RomUniverse is taken to court",
+        "description": "The big N filed a lawsuit against ROM site, RomUniverse, for copyright and trademak infirngement since the site distributed ROMs from games made by the company."
     },
     {
         "url": "https://torrentfreak.com/nintendo-takes-down-facebook-tooled-donkey-kong-remake-190930/",
@@ -216,12 +304,28 @@
         "description": "The company removed videos on Youtube about ROM hacks of their games, specifically speedruns and videos showcasing ROM hacks."
     },
     {
+        "url": "https://torrentfreak.com/nintendo-shuts-down-javascript-gameboy-emulator-150712/",
+        "icon":"law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
+        "date":"2015-07-12",
+        "name":"a GBA browser emulator is taken down",
+        "description":"A GBA emulator was uploaded and hosted on github by a developer. The emulator inluded ROM copies of games and the big N sent a takedown notice, the website and the code behind it was removed."
+    },
+    {
         "url": "https://arstechnica.com/gaming/2015/01/nintendo-to-share-up-to-70-percent-of-ad-revenue-with-game-youtubers",
         "icon":"balance.svg",
         "alt": "This incident was about someone having to pay compensation or any monetary problems caused by the big N",
         "date":"2015-01-29",
         "name":"The big N shared cut of content creators revenue on youtube",
         "description": "The big N created the \"Creators Program\", to allow Youtube users to create content from their games but only the ones white listed from the company, and giving the big N a cut of the ad revenue of each video."
+    },
+    {
+        "url": "https://torrentfreak.com/nintendo-nukes-hugely-popular-ios-game-boy-emulator-140514/",
+        "icon":"law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
+        "date":"2014-05-14",
+        "name":"A GBA emulator for iOS is taken down",
+        "description":"A high-school student made a GBA emuator for iOS that allowed to be installed without jailbreak, the big N sent a Takedown requesting to remove the code from Github."
     },
     {
         "url": "https://www.bbc.com/news/technology-27321200",
