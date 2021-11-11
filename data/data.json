@@ -8,12 +8,28 @@
         "description": "The Canadian Hacker was found guilty and now has to pay $4.5 million, and could also face up to 10 years in jail."
     },
     {
+        "url": "https://dotesports.com/fgc/news/low-tide-city-cancels-project-beyond-melee-64-remix-tournaments",
+        "icon":"block.svg",
+        "alt":"This incident is about something getting blocked or restricted",
+        "date":"2021-09-14",
+        "name":"Low Tide City cancels Tournaments for SSB mods",
+        "description":"LTC was organizing Tournaments for Project+, Beyond Melee and 64 Remix, but the big N contacted the organizers and the tournaments were cancelled"
+    },
+    {
         "url": "https://kotaku.com/nintendo-back-on-its-bullshit-shuts-down-another-smash-1847585646",
         "icon":"block.svg",
         "alt": "This incident is about something getting blocked or restricted",
         "date":"2021-08-30",
         "name":"Riptide Project+ tournament was shut down.",
         "description":"The company contacted the organizers of the event and discouraged them from making any tournaments or setups regarding Project+."
+    },
+    {
+        "url": "https://gamerant.com/metroid-prime-2d-fan-game-shut-down/",
+        "icon":"block.svg",
+        "alt":"This incident is about something getting blocked or restricted",
+        "date":"2020-08-27",
+        "name":"2D Prime is discontinued",
+        "description": "A certain games-related company asked the team behind the fan game \"Prime 2D\" to discontinue their work on their game. They removed the download links for the game as well as the download links for the music."
     },
     {
         "url": "https://www.ign.com/articles/now-defunct-romuniverse-ordered-to-destroy-all-pirated-nintendo-games",
