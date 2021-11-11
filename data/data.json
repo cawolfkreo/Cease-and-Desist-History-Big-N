@@ -264,6 +264,14 @@
         "description": "A fan made a remake of the game for Roku as an excercise. But the company filed a DMCA takedown and the game was removed from github."
     },
     {
+        "url": "https://www.polygon.com/2016/12/21/14038518/pokemon-prism-canceled",
+        "icon":"law.svg",
+        "alt": "This incident was about something getting sued or a legal letter was sent",
+        "date":"2016-12-21",
+        "name": "PK Prism is cancelled",
+        "description" :"PK Prism and PK Brown, two rom hacks made as fan games by a single developer, were cancelled and removed, respectively, by the creator after a legal document was sent by the big N requesting the removal of both of the romhacks and further involvement by the developer."
+    },
+    {
         "url": "http://web.archive.org/web/20211108065656/https://oripoke.wordpress.com/2016/10/20/the-explosion-and-fallout-of-pokemon-uranium/",
         "icon":"law.svg",
         "alt": "This incident was about something getting sued or a legal letter was sent",
