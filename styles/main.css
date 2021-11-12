@@ -50,6 +50,7 @@ header, footer, .content {
 
 header {
     margin: auto;
+    padding-top: 2vh;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -100,6 +101,10 @@ footer {
 .dataCell {
     font-family: var(--font-2);
     font-size: 1.17em;
+}
+
+.dataCell:hover {
+    color: var(--secondary-color);
 }
 
 .dataCell > a {
