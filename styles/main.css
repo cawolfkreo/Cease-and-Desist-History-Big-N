@@ -95,7 +95,9 @@ footer {
     margin: 5vmin 2.6vmin;
 }
 .count {
+    font-family: var(--font-2);
     font-weight: bold;
+    font-size: 1.5em;
 }
 
 .dataCell {
@@ -158,6 +160,11 @@ footer {
     justify-content: center;
 }
 
+.num {
+    font-weight: 900;
+    font-size: 1.8em;
+}
+
 .search-name {
     position: absolute;
     bottom: 0.8em;
@@ -165,7 +172,7 @@ footer {
     transition: var(--transition-forms);
 }
 
-.suggestions, .count {
+.suggestions {
     font-family: var(--font-2);
     font-size: 1.17em;
 }
