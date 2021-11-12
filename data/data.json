@@ -208,6 +208,13 @@
         "description": "Nintendo sent DMCA Takedowns to Youtube channels that posted official music of their games."
     },
     {
+        "url": "https://arstechnica.com/gaming/2019/07/nintendo-deletes-popular-mario-maker-2-level-for-unexplained-reasons/",
+        "icon": "block.svg",
+        "date": "2019-07-16",
+        "name": "Nintendo removes popular Mario Maker 2 level",
+        "description": "A content creator named GrandPooBear made a popular Mario Maker 2 level that was later removed and it didn't appear to have any explanation as to why it happened. three years before, his levels on the original Mario Maker were also removed."
+    },
+    {
         "url": "https://www.youtube.com/watch?v=kJGcDU4esUY",
         "icon":"law.svg",
         "alt": "This incident was about something getting sued or a legal letter was sent",
