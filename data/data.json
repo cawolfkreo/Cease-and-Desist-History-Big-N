@@ -8,6 +8,13 @@
         "description": "The Canadian Hacker was found guilty and now has to pay $4.5 million, and could also face up to 10 years in jail."
     },
     {
+        "url": "https://www.dexerto.com/gaming/nintendo-switch-online-price-finally-revealed-and-fans-are-furious-1676585/",
+        "icon":"balance.svg",
+        "date":"2021-10-15",
+        "name":"The price for the switch online expansion revealed",
+        "description": "An expansion to the switch online catalog to include Nintendo 64 games, Sega Genesis games and a DLC for Animal Crossing NH. This expansion costs $50 on top of the original service and fans didn't like the new price for the service."
+    },
+    {
         "url": "https://dotesports.com/fgc/news/low-tide-city-cancels-project-beyond-melee-64-remix-tournaments",
         "icon":"block.svg",
         "alt":"This incident is about something getting blocked or restricted",
@@ -239,6 +246,13 @@
         "description": "Two ROM sites offered copies of different games and Nintendo filed a lawsuit and won, which forced the sites to pay millions and shut down the websites."
     },
     {
+        "url": "https://www.vice.com/en/article/pa8pvv/youre-going-to-pay-dollar20-for-nintendo-switch-online-and-like-it",
+        "icon":"balance.svg",
+        "date":"2018-09-18",
+        "name":"Switch Online launches with fan criticism",
+        "description": "When the Nintendo Switch Online service, priced at $20, launched it was the subject of various fan complaints."
+    },
+    {
         "url": "https://www.polygon.com/2018/7/22/17600008/nintendo-roms-lawsuit-cease-desist",
         "icon":"law.svg",
         "alt": "This incident was about something getting sued or a legal letter was sent",
@@ -365,6 +379,13 @@
         "date":"2014-05-08",
         "name":"Nintendo says 'No' to gay game charaters",
         "description": "After the company released Tomodachi Life, a life-simulation game, a fan launched a social media campaign asking to allow same-sex relationships in the game. The company replied that \"never intended to make any form of social commentary with the game\"."
+    },
+    {
+        "url": "https://www.polygon.com/2014/1/18/5308416/why-did-nintendo-quash-a-book-about-earthbounds-development",
+        "icon":"block.svg",
+        "date":"2014-01-18",
+        "name":"A book about Earthbounds development is cancelled",
+        "description": "Marcus Lindbloom, the english translator for the original Earthbound decided to make a book talking about the time he worked on the game, He contacted Nintendo to get an approval but the company replied telling him that he signed an NDA and he couldn't publish the book."
     },
     {
         "url": "https://www.bbc.com/news/technology-24612069",
