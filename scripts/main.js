@@ -1,5 +1,11 @@
 "use strict";
 
+const ITEMS_KEY = {
+    "balance.svg": "This incident was about someone having to pay compensation or any monetary problems caused by Nintendo",
+    "block.svg": "This incident is about something getting blocked or restricted",
+    "law.svg": "This incident was about something getting sued or a legal letter was sent",
+}
+
 /**
  * Formats a date to a simple string
  * @param {Date} dateToFormat The date we need to format as a string
@@ -100,7 +106,7 @@ function filterData(filter, data) {
         const desc = incident.description.toLowerCase();
         return name.includes(filter) || desc.includes(filter);
     });
-    updateDom(filteredData);
+    updateGrid(filteredData);
 }
 
 /**
@@ -123,17 +129,27 @@ function attachToInput(data) {
 }
 
 /**
- * Updates the DOM of the website to
- *  display it to the user.
+ * Updates the counters of the
+ * website to display them to the
+ * user.
  * @param {Array<Object>} data The data that will be used to update the DOM
  */
-function updateDom(data) {
-    const contentElem = document.querySelector(".grid");
+function updateCount(data) {
     const countElem = document.querySelector(".count");
-    countElem.innerText = `Displaying ${data.length} items.`
+    countElem.innerHTML = `Nintendo played this game <span class="num">${data.length}</span> times.`;
+}
+
+/**
+ * Updates the DOM of the website to
+ * display it to the user.
+ * @param {Array<Object>} data The data that will be used to update the DOM
+ */
+function updateGrid(data) {
+    const contentElem = document.querySelector(".grid");
     contentElem.innerHTML = "";
 
     for (const incident of data) {
+        incident.alt = ITEMS_KEY[incident.icon];
         const container = createDataCell(incident);
         contentElem.appendChild(container);
     }
@@ -148,7 +164,8 @@ async function loadData(dataPath) {
     const rawResult = await fetch(dataPath);
     const data = await rawResult.json();
     console.table(data);
-    updateDom(data);
+    updateGrid(data);
+    updateCount(data);
     attachToInput(data);
 }
 
