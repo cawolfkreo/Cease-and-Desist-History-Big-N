@@ -16,9 +16,10 @@
 
 ## Description
 This project originated after a few years of looking at a certain videogame company and his response to fan projects, since it was less than ideal and specially after never improving despite fan outcry. After being influenced by [killed by Google](https://killedbygoogle.com/) and a few videos about the subject that **I highly recommend watching** since they illustrate the issue with the company pretty well, I decided to make a compilation of news and events this videogame company has caused over the years to make sure we don't forget the story we lived in hopes that one day, we won't repeat it. The list of videos I mentioned can be found here:
-* **[Sacrifices to the Church of the big N](https://youtu.be/xgKY9hmbfgo)**
-* **[How the big N disrespects its most passionate fans.](https://youtu.be/UKD_wnB9AMU)**
-* **[The Game the big N Wishes It Never Made](https://youtu.be/N8imMRbi2qc)**
+* **[Sacrifices to the Church of Nintendo](https://youtu.be/xgKY9hmbfgo)**
+* **[How Nintendo disrespects its most passionate fans.](https://youtu.be/UKD_wnB9AMU)**
+* **[The Game Nintendo Wishes It Never Made](https://youtu.be/N8imMRbi2qc)**
+* **[A History of Nintendo and Anti-Consumerism](https://youtu.be/RHawXa-GxLQ)**
 
 ## Getting Started
 If you'd like to edit or host this website on your own, I highly recommend using a webserver on the machine you are going to use for this. The first thing you want to do is downloading the repository, to do this you can use git (if you already know how to use it) or download the files as a zip (the green button above the contents of the repository gives you the option).
