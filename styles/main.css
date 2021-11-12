@@ -50,6 +50,7 @@ header, footer, .content {
 
 header {
     margin: auto;
+    padding-top: 2vh;
     height: fit-content;
     display: flex;
     flex-direction: column;
