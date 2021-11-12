@@ -103,10 +103,6 @@ footer {
     font-size: 1.17em;
 }
 
-.dataCell:hover {
-    color: var(--secondary-color);
-}
-
 .dataCell > a {
     text-decoration: none;
     color: var(--foreground-color);
