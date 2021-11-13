@@ -77,6 +77,13 @@
         "description":"After riptide shut down their project events, the orginizers of Mainstage 2021 decided to remove Project+ tournaments on their own."
     },
     {
+        "url": "https://torrentfreak.com/nintendo-conducted-invasive-surveillance-operation-against-homebrew-hacker-201223/",
+        "icon":"law.svg",
+        "date":"2020-12-23",
+        "name":"leaked documents revealed surveillance on hacker",
+        "description": "A series of leaks contained documents showing how Nintendo obtained personal and sensitive information on a 3DS hacker, apparently the company wanted to talk to him in person."
+    },
+    {
         "url": "https://www.polygon.com/2020/12/7/22158534/nintendo-etikon-joy-con-controllers-shut-down-cease-and-desist",
         "icon":"block.svg",
         "date":"2020-12-07",
@@ -301,6 +308,13 @@
         "description": "526 fanmade indie games based on games by Nintendo received a DMCA takedown on Gamejolt, a website dedicated to hosting indie games."
     },
     {
+        "url": "https://www.pcgamer.com/no-marios-sky-parody-game-blocked-by-nintendo-lawyers-dmcas-sky-takes-its-place/",
+        "icon":"law.svg",
+        "date":"2016-09-05",
+        "name":"No Mario's Sky receives DMCA takedown",
+        "description": "A free fan game made as a parody of No Man's Sky and Mario received a DMCA takedown on itch. It was removed from the website but the developer modified the game to just be a No man's sky parody."
+    },
+    {
         "url": "https://kotaku.com/brilliant-fan-remake-of-metroid-ii-arrives-just-in-time-1784929739",
         "icon":"block.svg",
         "date":"2016-08-06",
@@ -404,6 +418,13 @@
         "date":"2010-04-02",
         "name":"A fan made Pokémon MMO was shut down",
         "description": "A group of fans created an MMO version of Pokémon and Nintendo sent a cease and desist letter requesting them to take down the website and surrender the domain name too."
+    },
+    {
+        "url": "https://www.destructoid.com/nintendo-shuts-down-zelda-hero-of-time-fan-movie/",
+        "icon":"block.svg",
+        "date":"2010-01-01",
+        "name":"Zelda fan movie was shut down",
+        "description":"A fanmade movie based on the story of OoT was uploaded to the internet and then Nintendo contacted the group behind it and requested to remove, at the end of 2009 the movie was removed."
     },
     {
         "url": "http://web.archive.org/web/20060820035536/http://www.consoleclassix.com/letter_from_noa.php",
