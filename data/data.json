@@ -102,6 +102,13 @@
         "description": "The NA stream for Splatoon 2 was cancelled when the company realized teams used #FreeMelee on their names in support for the SSBM community."
     },
     {
+        "url": "https://screenrant.com/fire-emblem-shadow-dragon-limited-release-mario-worse/",
+        "icon":"block.svg",
+        "date":"2020-12-04",
+        "name":"The original Fire Emblem had a limited release",
+        "description": "Nintendo released the original Fire Emblem game for the NES, in english, for the first time. The game was only avialable for 3 months since it was removed from the switch store after March 31st 2021."
+    },
+    {
         "url": "https://dotesports.com/streaming/news/multiple-streamers-banned-by-nintendo-for-playing-hyrule-warriors-age-of-calamity",
         "icon":"block.svg",
         "alt": "This incident is about something getting blocked or restricted",
@@ -188,6 +195,13 @@
         "date":"2020-05-07",
         "name":"Super Mario 64 PC port",
         "description": "A fan made pc port of the game and the company filed copyright takedowns for any video on youtube showcasing the game and websites hosting the game."
+    },
+    {
+        "url": "https://www.ign.com/articles/sony-dreams-nintendo-mario-copyright-ip-intellectual-property-lawsuit",
+        "icon":"block.svg",
+        "date":"2020-03-21",
+        "name":"Sony removes Mario creation from dreams",
+        "description": "Nintendo sent a complaint to Sony about their IP being used in one of their games. The IP problem was a Super Mario creation made in the game \"Dreams\" by a player."
     },
     {
         "url": "https://www.eurogamer.net/articles/2020-02-01-just-one-animal-crossing-new-horizons-island-per-switch-nintendo-confirms",
