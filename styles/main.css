@@ -94,10 +94,37 @@ footer {
     flex: 1 0 auto;
     margin: 5vmin 2.6vmin;
 }
-.count {
+
+.counters {
     font-family: var(--font-2);
     font-weight: bold;
     font-size: 1.5em;
+}
+
+.counters > hr {
+    margin: 4vw 2vw;
+    border: 3px solid var(--foreground-color);
+    border-radius: 5px;
+}
+
+.countRow {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-bottom: 1vh;
+}
+
+.countDiv {
+    min-width: 350px;
+    flex-grow: 1;
+    justify-content: center;
+    text-align: center;
+
+    display: flex;
+}
+
+.countDiv > img {
+    height: 8vh;
 }
 
 .dataCell {
@@ -110,9 +137,10 @@ footer {
     color: var(--foreground-color);
 }
 
-.dataCell > a > img {
+.dataCell > a > img, .countDiv > img {
     height: 4.5em;
     filter: invert(1);
+    margin: 0 1vw;
 }
 
 .dateDate {
