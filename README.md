@@ -1,4 +1,4 @@
-# History of big N sins
+# History of sins by N
 
 ## Table of Contents
 <details><summary>Expand to see contents</summary>
