@@ -1,9 +1,37 @@
 "use strict";
 
+/**
+ * One of the incidents that have
+ * ocurred over the years regarding
+ * certain videogame company.
+ * @typedef {Object} Incident
+ * @property {String} url The reference for this incident.
+ * @property {String} icon The type of incident (as well a the icon that will be shown).
+ * @property {String} date When the incident ocurred in string form (can be directly converted to Date).
+ * @property {String} name The name for the incident.
+ * @property {String} description The description for the incident.
+ * @property {string} [alt] The alt for the icon of the incident
+ */
+
+/**
+ * This is a simple "enum + dict" of
+ * the different types of incidents
+ * that could be stored on the
+ * data.json that will be received.
+ */
 const ITEMS_KEY = {
-    "balance.svg": "This incident was about someone having to pay compensation or any monetary problems caused by Nintendo",
-    "block.svg": "This incident is about something getting blocked or restricted",
-    "law.svg": "This incident was about something getting sued or a legal letter was sent",
+    "balance.svg": {
+        alt: "This incident was about someone having to pay compensation or any monetary problems caused by Nintendo",
+        message: "Nintendo has collected !num coins."
+    },
+    "block.svg": {
+        alt: "This incident is about something getting blocked or restricted",
+        message: "Nintendo re-locked content !num times."
+    },
+    "law.svg": {
+        alt: "This incident was about something getting sued or a legal letter was sent",
+        message: "Nintendo invited lawyers to smash !num times."
+    },
 }
 
 /**
@@ -31,7 +59,7 @@ function formatDate(dateToFormat) {
  * @param {String} [atributes.alt] The alt about the image if the element is an img.
  * @returns The created HTML Element.
  */
-function createElement(tagname, {className, innerText, href, src, alt}) {
+function createElement(tagname, {className, innerText, href, src, alt}={}) {
     const element = document.createElement(tagname);
     if(className)
         element.className = className;
@@ -58,13 +86,7 @@ function createElement(tagname, {className, innerText, href, src, alt}) {
  * be used to display the 
  * information of the incident on 
  * the website
- * @param {object} incident Object that contains the information of an incident that will be shown on the website
- * @param {string} incident.icon The path for the icon of the incident
- * @param {string} incident.alt The alt for the icon of the incident
- * @param {string} incident.date The date when the incident happened
- * @param {string} incident.name The name or Title for the incident
- * @param {string} incident.description The description of what happened
- * @param {string} incident.url The archive url with the report
+ * @param {Incident} incident Object that contains the information of an incident that will be shown on the website
  * @returns The new cell to insert on the DOM of the website.
  */
 function createDataCell({icon, alt, date: dateStr, name, description, url}) {
@@ -97,7 +119,7 @@ function createDataCell({icon, alt, date: dateStr, name, description, url}) {
  * the filter. After the filter is
  * done, the DOM will be updated too.
  * @param {string} filter The fitler that will be used to filter the data.
- * @param {Array<Object>} data The data that will be used to update the DOM when filtering.
+ * @param {Array<Incident>} data The data that will be used to update the DOM when filtering.
  */
 function filterData(filter, data) {
     filter = filter.toLowerCase();
@@ -115,7 +137,7 @@ function filterData(filter, data) {
  * key (keyup) and said listener
  * Will then filter the DOM 
  * accordingly.
- * @param {Array<Object>} data The data that will be used to update the DOM when filtering.
+ * @param {Array<Incident>} data The data that will be used to update the DOM when filtering.
  */
 function attachToInput(data) {
     const inputElem = document.getElementById("searchInpt");
@@ -129,27 +151,75 @@ function attachToInput(data) {
 }
 
 /**
+ * Calculates the total number of
+ * incidents for each type of
+ * incidents on the array.
+ * @param {Array<Incident>} data 
+ * @returns An object with each type of incident as it's properties and the total number of each of them in data.
+ */
+function countIncidentTypes(data) {
+    const totals = {};
+
+    for (const incidentType in ITEMS_KEY) {
+        const typeCount = data.filter(incident => incident.icon === incidentType).length;
+        totals[incidentType] = typeCount;
+    }
+
+    return totals
+}
+
+/**
  * Updates the counters of the
  * website to display them to the
  * user.
- * @param {Array<Object>} data The data that will be used to update the DOM
+ * @param {Array<Incident>} data The data that will be used to update the DOM
  */
 function updateCount(data) {
-    const countElem = document.querySelector(".count");
+    const incidentTotals = countIncidentTypes(data);
+
+    const countersElem = document.querySelector(".counters");
+    const countElem = createElement("p", {className: "count"});
     countElem.innerHTML = `Nintendo played this game <span class="num">${data.length}</span> times.`;
+    countersElem.appendChild(countElem);
+
+    const countersRow = createElement("div", {className: "countRow"});
+
+    for (const incidentType in ITEMS_KEY) {
+        const counterContainer = createElement("div", {className:"countDiv"});
+
+        const imgAlt = ITEMS_KEY[incidentType].alt;
+        const iconType = createElement("img", {src: `./images/${incidentType}`, imgAlt});
+        counterContainer.appendChild(iconType);
+
+        const indivdualCounter = createElement("p");
+
+        const count = incidentTotals[incidentType];
+        let message = ITEMS_KEY[incidentType].message;
+        message = message.replace("!num", `<span class="num">${count}</span>`);
+
+        indivdualCounter.innerHTML = message;
+        counterContainer.appendChild(indivdualCounter);
+
+        countersRow.appendChild(counterContainer);
+    }
+
+    countersElem.appendChild(countersRow);
+
+    const separator = createElement("hr");
+    countersElem.appendChild(separator);
 }
 
 /**
  * Updates the DOM of the website to
  * display it to the user.
- * @param {Array<Object>} data The data that will be used to update the DOM
+ * @param {Array<Incident>} data The data that will be used to update the DOM
  */
 function updateGrid(data) {
     const contentElem = document.querySelector(".grid");
     contentElem.innerHTML = "";
 
     for (const incident of data) {
-        incident.alt = ITEMS_KEY[incident.icon];
+        incident.alt = ITEMS_KEY[incident.icon].alt;
         const container = createDataCell(incident);
         contentElem.appendChild(container);
     }
