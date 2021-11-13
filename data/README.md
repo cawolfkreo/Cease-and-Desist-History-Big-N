@@ -19,7 +19,6 @@ When making a pull request I expect you to create your own branch based of the m
     {
         "url": "<The URL of the article, post, wayback machine, etc. of the event.>",
         "icon":"<This depends on what the type of incident was, either: 'block.svg' for anything blocked by the big N , 'law.svg' for any legal letters from the big N or 'balance.svg' for any monetary compensation obtained by the big N>",
-        "alt": "<This one is tied to the previous one and you can find it on other items on the list, you can leave it blank if you are not sure what the message should be>",
         "date":"<When the incident happened, this can be either the date when an article was post or when a publication or statement by any party involved was made about the incident. This should be formated as: 'yyyy-mm-dd'>",
         "name":"<The name of the incident or the 'title' that will be displayed on the website>",
         "desciption": "<A short summary of what happened on the event>"
