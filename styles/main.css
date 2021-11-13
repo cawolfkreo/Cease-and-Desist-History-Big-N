@@ -113,6 +113,7 @@ footer {
     box-sizing: border-box;
     margin-bottom: 1vh;
 }
+
 .countDiv {
     min-width: 350px;
     flex-grow: 1;
@@ -120,6 +121,10 @@ footer {
     text-align: center;
 
     display: flex;
+}
+
+.countDiv > img {
+    height: 8vh;
 }
 
 .dataCell {
@@ -133,7 +138,7 @@ footer {
 }
 
 .dataCell > a > img, .countDiv > img {
-    height: 15vh;
+    height: 4.5em;
     filter: invert(1);
     margin: 0 1vw;
 }
