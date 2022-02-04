@@ -1,5 +1,12 @@
 [
     {
+        "url": "https://www.polygon.com/22916040/nintendo-video-game-music-osts-youtube-gilvasunner-copyright-takedown",
+        "icon":"block.svg",
+        "date":"2022-2-03",
+        "name":"Youtube channel received over 2,200 \"copyright blocks\"",
+        "description":"The GilvaSunner youtube channel used to post videogame music soundtracks, it received more than 2,200 \"copyright blocks\" from Nintendo, forcing the owner of the channel to remove the the channel."
+    },
+    {
         "url": "https://gamerant.com/pokemon-fps-game-footage-videos-nintendo-takedown/",
         "icon":"block.svg",
         "date":"2022-1-23",
@@ -301,6 +308,13 @@
         "description": "A fan made a remake of the game for Roku as an excercise. But the company filed a DMCA takedown and the game was removed from github."
     },
     {
+        "url": "https://kotaku.com/nintendo-is-suing-go-karting-company-over-copyright-inf-1792705619",
+        "icon":"law.svg",
+        "date":"2017-02-24",
+        "name":"Go-Karting company is sued for copyright infringement",
+        "description":"The \"MariCar\" Go-Kart company allowed customers to race in the streets of Tokyo dressed up as Mario Bros characters. Nintendo sued them for copyright infringement."
+    },
+    {
         "url": "https://www.polygon.com/2016/12/21/14038518/pokemon-prism-canceled",
         "icon":"law.svg",
         "date":"2016-12-21",
@@ -446,5 +460,12 @@
         "date":"2001-06-01",
         "name":"Console Clasix received a cease & desist letter",
         "description": "Console Clasix, a rental service that operates with thousands of physical ROMs, was sent a cease & desist letter to stop the service. They replied stating why it wasn't illegal and never heard from Nintendo again."
+    },
+    {
+        "url": "https://www.nintendotimes.com/1989/08/19/nintendo-sues-blockbuster-video-for-copying-instruction-books/",
+        "icon":"law.svg",
+        "date":"1989-08-19",
+        "name":"Nintendo sued Blockbuster for copying instruction books",
+        "description": "Nintendo wanted videogame rentals to stop renting their games and since Blockbuster used to make copies of the instruction booklets for each game, Nintendo sued them for copyright violations."
     }
 ]
