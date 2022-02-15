@@ -1,4 +1,4 @@
-# History of sins by N
+# History of sins by Nintendo
 
 ## Table of Contents
 <details><summary>Expand to see contents</summary>
