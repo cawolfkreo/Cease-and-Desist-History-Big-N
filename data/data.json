@@ -308,6 +308,13 @@
         "description": "A fan made a remake of the game for Roku as an excercise. But the company filed a DMCA takedown and the game was removed from github."
     },
     {
+        "url": "https://kotaku.com/zelda-fan-game-decides-to-change-course-after-nintendo-1794785453",
+        "icon":"block.svg",
+        "date":"2017-04-30",
+        "name": "Breath of the NES is received a takedown notice",
+        "description": "The fan game was an attempt to recreate the BoTW demo that Nintendo presented on GDC. After the creator received the takedown the game was removed."
+    },
+    {
         "url": "https://kotaku.com/nintendo-is-suing-go-karting-company-over-copyright-inf-1792705619",
         "icon":"law.svg",
         "date":"2017-02-24",
@@ -460,6 +467,13 @@
         "date":"2001-06-01",
         "name":"Console Clasix received a cease & desist letter",
         "description": "Console Clasix, a rental service that operates with thousands of physical ROMs, was sent a cease & desist letter to stop the service. They replied stating why it wasn't illegal and never heard from Nintendo again."
+    },
+    {
+        "url": "https://scholar.google.com/scholar_case?case=14167398686354689030&hl=en&as_sdt=2&as_vis=1&oi=scholarr",
+        "icon":"law.svg",
+        "date":"1991-07-12",
+        "name":"Nintendo sues the Game Genie",
+        "description": "The Game Genie was a tool made to modify the behaviour of NES games. Nintendo decided to sue the makers of this tool alleging that modifying the game created a derivative work and this violated their Copyrights."
     },
     {
         "url": "https://www.nintendotimes.com/1989/08/19/nintendo-sues-blockbuster-video-for-copying-instruction-books/",
