@@ -1,5 +1,12 @@
 [
     {
+        "url": "https://web.archive.org/web/20220227153917/https://twitter.com/EVO/status/1497662793897721860",
+        "icon":"block.svg",
+        "date":"2022-2-26",
+        "name":"Nintendo removed Smash from Evo",
+        "description": "The organizers at Evo (The Evolution Championship Series) made a tweeted satiting that Nintendo decided to removed the Smash tournament from the lineup of games on 2022."
+    },
+    {
         "url": "https://www.polygon.com/22916040/nintendo-video-game-music-osts-youtube-gilvasunner-copyright-takedown",
         "icon":"block.svg",
         "date":"2022-2-03",
@@ -32,7 +39,7 @@
         "icon":"block.svg",
         "date":"2021-09-14",
         "name":"Low Tide City cancels Tournaments for SSB mods",
-        "description":"LTC was organizing Tournaments for Project+, Beyond Melee and 64 Remix, but Nintendo contacted the organizers and the tournaments were cancelled"
+        "description":"LTC was organizing Tournaments for Project+, Beyond Melee and 64 Remix, but Nintendo contacted the organizers and the tournaments were cancelled."
     },
     {
         "url": "https://kotaku.com/nintendo-back-on-its-bullshit-shuts-down-another-smash-1847585646",
