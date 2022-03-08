@@ -1,5 +1,12 @@
 [
     {
+        "url": "https://www.eurogamer.net/articles/2022-03-03-steam-deck-nintendo-emulation-videos-are-disappearing-from-youtube",
+        "icon":"block.svg",
+        "date":"2022-3-3",
+        "name":"Steam Deck videos removed by Nintendo",
+        "description": "Videos on Youtube showing the Steam Deck (Valve's first handheld console) emulating Switch games, were apparently taken down by Nintendo."
+    },
+    {
         "url": "https://web.archive.org/web/20220227153917/https://twitter.com/EVO/status/1497662793897721860",
         "icon":"block.svg",
         "date":"2022-2-26",
