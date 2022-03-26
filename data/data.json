@@ -1,8 +1,15 @@
 [
     {
+        "url": "https://www.nintendolife.com/news/2022/03/nintendo-issues-copyright-strike-against-scanned-super-mario-64-guide-from-1996",
+        "icon":"block.svg",
+        "date":"2022-03-25",
+        "name":"Nintendo issued a takedown on scans of a SM64 guide",
+        "description": "Scans of a japanese Super Mario 64 strategy guide from 1996 were uploaded to archive.org. Nintendo issued a copyright takedown and the scans were removed."
+    },
+    {
         "url": "https://www.eurogamer.net/articles/2022-03-03-steam-deck-nintendo-emulation-videos-are-disappearing-from-youtube",
         "icon":"block.svg",
-        "date":"2022-3-3",
+        "date":"2022-3-03",
         "name":"Steam Deck videos removed by Nintendo",
         "description": "Videos on Youtube showing the Steam Deck (Valve's first handheld console) emulating Switch games, were apparently taken down by Nintendo."
     },
