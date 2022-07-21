@@ -229,7 +229,6 @@ function updateGrid(data) {
 async function loadData(dataPath) {
     const rawResult = await fetch(dataPath);
     const data = await rawResult.json();
-    //console.table(data);
     updateGrid(data);
     updateCount(data);
     attachToInput(data);
