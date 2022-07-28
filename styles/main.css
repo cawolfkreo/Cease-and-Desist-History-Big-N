@@ -234,7 +234,7 @@ footer {
     added to "hack" accesibility validators
     the actual focus selector is bellow
     */
-    background-color: hsla(0, 0%, 0%, 0.025);
+    background-color: hsla(0, 0%, 0%, 0);
 }
 
 #searchInpt:focus + label .search-name,
