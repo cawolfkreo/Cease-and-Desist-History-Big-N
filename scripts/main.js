@@ -21,15 +21,15 @@
 */
 const ITEMS_KEY = {
     "balance.svg": {
-        alt: "This incident was about someone having to pay compensation or any monetary problems caused by Nintendo",
+        alt: "A balance with no loads or lifts on it. It's in equilibrium.",
         message: "Nintendo has collected !num coins."
     },
     "block.svg": {
-        alt: "This incident is about something getting blocked or restricted",
+        alt: "A circle with a stroke in the middle. Represents blocking or prevention.",
         message: "Nintendo re-locked content !num times."
     },
     "law.svg": {
-        alt: "This incident was about something getting sued or a legal letter was sent",
+        alt: "A Gavel floating in a 45 degree angle.",
         message: "Nintendo invited lawyers to smash !num times."
     },
 }
