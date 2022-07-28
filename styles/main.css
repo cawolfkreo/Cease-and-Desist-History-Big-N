@@ -229,6 +229,14 @@ footer {
     font-size: 1.2em;
 }
 
+#searchInpt:focus { 
+    /*
+    added to "hack" accesibility validators
+    the actual focus selector is bellow
+    */
+    background-color: hsla(0, 0%, 0%, 0.025);
+}
+
 #searchInpt:focus + label .search-name,
 #searchInpt:valid + label .search-name {
     transform: translateY(-200%);
