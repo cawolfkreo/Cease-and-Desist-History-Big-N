@@ -101,7 +101,7 @@ function createDataCell({icon, alt, date: dateStr, name, description, url}) {
         createElement("a", {href: url}, [
             createElement("img", {src: `./images/${icon}`, alt}),
             createElement("p", {className: "dateDate", innerText: dateStr}),
-            createElement("h3", {innerText: name}),
+            createElement("h2", {innerText: name}),
             createElement("p", {innerText: description})
         ]),
     ]);

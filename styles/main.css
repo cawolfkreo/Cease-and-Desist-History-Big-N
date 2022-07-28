@@ -5,6 +5,7 @@
     font-family: pretendo;
     src: url(../fonts/Pretendo.ttf) format("truetype");
     unicode-range: U+41-5A, U+61-7A;
+    font-display: swap
 }
 
 * {
@@ -141,6 +142,10 @@ footer {
     height: 4.5em;
     filter: invert(1);
     margin: 0 1vw;
+}
+
+.dataCell > a > h2 {
+    font-size: 1.17em;
 }
 
 .dateDate {
