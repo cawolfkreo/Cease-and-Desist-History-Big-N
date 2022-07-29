@@ -22,16 +22,26 @@
 const ITEMS_KEY = {
     "balance.svg": {
         alt: "A balance with no loads or lifts on it. It's in equilibrium.",
-        message: "Nintendo has collected !num coins."
+        message: messageFormat("Nintendo has collected !num coins.")
     },
     "block.svg": {
         alt: "A circle with a stroke in the middle. Represents blocking or prevention.",
-        message: "Nintendo re-locked content !num times."
+        message: messageFormat("Nintendo re-locked content !num times.")
     },
     "law.svg": {
         alt: "A Gavel floating in a 45 degree angle.",
-        message: "Nintendo invited lawyers to smash !num times."
+        message: messageFormat("Nintendo invited lawyers to smash !num times.")
     },
+}
+
+/**
+ * Formats the message into a prefix
+ * and a suffix in an array.
+ * @param {String} message the message to format
+ * @returns an array of two items, a prefix and a sufix
+ */
+function messageFormat(message) {
+    return message.split("!num");
 }
 
 /**
@@ -141,7 +151,7 @@ function attachToInput(data) {
 * Calculates the total number of
 * incidents for each type of
 * incidents on the array.
-* @param {Array<Incident>} data 
+* @param {Array<Incident>} data The list of incidents to count
 * @returns An object with each type of incident as it's properties and the total number of each of them in data.
 */
 function countIncidentTypes(data) {
@@ -156,48 +166,41 @@ function countIncidentTypes(data) {
 }
 
 /**
-* Creates a paragraph with based on the specified message and the count of incidents passed
-* @param {Number} count The count to be displayed on the paragraph for this incident
-* @param {String} templateMsg The template message to use for the paragraph text
-* @param {Object} [atributes] The attribues object to use for the object created.
-* @returns An <p> HTML element with the message on it.
-*/
-function incidentCounterMessage(count, templateMsg, atributes={}) {
-    const indivdualCounter = createElement("p", atributes);
-    const message = templateMsg.replace("!num", `<span class="num">${count}</span>`);
-    indivdualCounter.innerHTML = message;
-    return indivdualCounter;
+ * Renders the counter message for the
+ * incident count.
+ * @param {String} prefix The text node to display before the counter
+ * @param {Number} count The count to display
+ * @param {String} sufix The text node to display after the counter
+ * @param {Object} [atributes] The attribues object to use for the object created.
+ * @returns A <p> HTML element with the message counter on it.
+ */
+ function incidentCounterMessage(prefix, count, sufix, attribues={}) {
+    return createElement("p", attribues,[
+        document.createTextNode(prefix),
+        createElement("span", { className: "num", innerText: count}),
+        document.createTextNode(sufix)
+    ]);
 }
 
+/**
+ * Creates a row component that holds
+ * the different counters for the list
+ * of incidents so far
+ * @param {Array<incident>} data The data that will be used to update the counters
+ * @returns The row of counters to be displayed
+ */
 function specificCountersRow(data) {
     const incidentTotals = countIncidentTypes(data);
     const incidentTypes = Object.entries(ITEMS_KEY);
     
     return createElement("div", {className: "countRow"}, 
-        incidentTypes.map(([incidentType, typeItem]) => (
+        incidentTypes.map(([incidentType, {alt, message:[prefix, sufix]}]) => (
             createElement("div", {className:"countDiv"}, [
-                createElement("img", {src: `./images/${incidentType}`, alt: typeItem.alt}),
-                incidentCounterMessage(incidentTotals[incidentType], typeItem.message)
+                createElement("img", {src: `./images/${incidentType}`, alt}),
+                incidentCounterMessage(prefix, incidentTotals[incidentType], sufix)
             ])
         ))
     );
-}
-
-/**
- * Renders the counter message for the
- * incident count.
- * @param {Text} prefix The text node to display before the counter
- * @param {Number} count The count to display
- * @param {Text} suffix The text node to display after the counter
- * @param {Object} [atributes] The attribues object to use for the object created.
- * @returns A <p> HTML element with the message counter on it.
- */
-function test(prefix, count, suffix, attribues={}) {
-    return createElement("p", attribues,[
-        document.createTextNode(prefix),
-        createElement("span", { className: "num", innerText: count}),
-        document.createTextNode(suffix)
-    ]);
 }
 
 /**
@@ -208,7 +211,7 @@ function test(prefix, count, suffix, attribues={}) {
  * @returns The global counter displaying the total number of incidents so far 
  */
 function globalCounter(count) {
-    return test("Nintendo played this game ", count, " times.", {className: "globalCount"});
+    return incidentCounterMessage("Nintendo played this game ", count, " times.", {className: "globalCount"});
 }
 
 /**
