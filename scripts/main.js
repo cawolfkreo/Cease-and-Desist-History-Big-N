@@ -87,24 +87,16 @@ function createElement(tagname, {className, innerText, href, src, alt}={}, child
 }
 
 /**
-* creates an html Element that will
-* be used to display the 
-* information of the incident on 
-* the website
-* @param {Incident} incident Object that contains the information of an incident that will be shown on the website
-* @returns The new cell to insert on the DOM of the website.
-*/
-function createDataCell({icon, alt, date: dateStr, name, description, url}) {
-    dateStr = formatDate(new Date(dateStr));
-    
-    return createElement("div", {className: "dataCell"}, [
-        createElement("a", {href: url}, [
-            createElement("img", {src: `./images/${icon}`, alt}),
-            createElement("p", {className: "dateDate", innerText: dateStr}),
-            createElement("h2", {innerText: name}),
-            createElement("p", {innerText: description})
-        ]),
-    ]);
+ * Renders a list of elements inside
+ * an already existing HTMLElement
+ * in the browser's DOM.
+ * @param {HTMLElement} parentElem The parent element where the render will take place
+ * @param {HTMLElement[]} childs The array of children elements to render inside the parent
+ */
+function render(parentElem, childs=[]) {
+    const fragment = document.createDocumentFragment();
+    childs.forEach(child => fragment.appendChild(child));
+    parentElem.appendChild(fragment);
 }
 
 /**
@@ -177,6 +169,48 @@ function incidentCounterMessage(count, templateMsg, atributes={}) {
     return indivdualCounter;
 }
 
+function specificCountersRow(data) {
+    const incidentTotals = countIncidentTypes(data);
+    const incidentTypes = Object.entries(ITEMS_KEY);
+    
+    return createElement("div", {className: "countRow"}, 
+        incidentTypes.map(([incidentType, typeItem]) => (
+            createElement("div", {className:"countDiv"}, [
+                createElement("img", {src: `./images/${incidentType}`, alt: typeItem.alt}),
+                incidentCounterMessage(incidentTotals[incidentType], typeItem.message)
+            ])
+        ))
+    );
+}
+
+/**
+ * Renders the counter message for the
+ * incident count.
+ * @param {Text} prefix The text node to display before the counter
+ * @param {Number} count The count to display
+ * @param {Text} suffix The text node to display after the counter
+ * @param {Object} [atributes] The attribues object to use for the object created.
+ * @returns A <p> HTML element with the message counter on it.
+ */
+function test(prefix, count, suffix, attribues={}) {
+    return createElement("p", attribues,[
+        document.createTextNode(prefix),
+        createElement("span", { className: "num", innerText: count}),
+        document.createTextNode(suffix)
+    ]);
+}
+
+/**
+ * Creates a counter element that
+ * will display the total number of
+ * incidents listed so far
+ * @param {Number} count The ammount of incidents that will be displayed in the counter
+ * @returns The global counter displaying the total number of incidents so far 
+ */
+function globalCounter(count) {
+    return test("Nintendo played this game ", count, " times.", {className: "globalCount"});
+}
+
 /**
 * Updates the counters of the
 * website to display them to the
@@ -185,24 +219,32 @@ function incidentCounterMessage(count, templateMsg, atributes={}) {
 */
 function updateCount(data) {
     const countersElem = document.querySelector(".counters");
+    render(countersElem, [
+        globalCounter(data.length),
+        specificCountersRow(data),
+        createElement("hr")
+    ]);
+}
+
+/**
+* creates an html Element that will
+* be used to display the 
+* information of the incident on 
+* the website
+* @param {Incident} incident Object that contains the information of an incident that will be shown on the website
+* @returns The new cell to insert on the DOM of the website.
+*/
+function createDataCell({icon, alt, date: dateStr, name, description, url}) {
+    dateStr = formatDate(new Date(dateStr));
     
-    const mainCountMsg = "Nintendo played this game <span class=\"num\">!num</span> times.";
-    const countElem = incidentCounterMessage(data.length, mainCountMsg, {className: "count"});
-    countersElem.appendChild(countElem);
-    
-    const incidentTotals = countIncidentTypes(data);
-    const incidentTypes = Object.entries(ITEMS_KEY);
-    const countersRow = createElement("div", {className: "countRow"}, 
-    incidentTypes.map(([incidentType, typeItem]) => {
-        return createElement("div", {className:"countDiv"}, [
-            createElement("img", {src: `./images/${incidentType}`, alt: typeItem.alt}),
-            incidentCounterMessage(incidentTotals[incidentType], typeItem.message)
-        ])
-    }));
-    countersElem.appendChild(countersRow);
-    
-    const separator = createElement("hr");
-    countersElem.appendChild(separator);
+    return createElement("div", {className: "dataCell"}, [
+        createElement("a", {href: url}, [
+            createElement("img", {src: `./images/${icon}`, alt}),
+            createElement("p", {className: "dateDate", innerText: dateStr}),
+            createElement("h2", {innerText: name}),
+            createElement("p", {innerText: description})
+        ]),
+    ]);
 }
 
 /**
@@ -211,14 +253,15 @@ function updateCount(data) {
 * @param {Array<Incident>} data The data that will be used to update the DOM
 */
 function updateGrid(data) {
-    const contentElem = document.querySelector(".grid");
-    contentElem.innerHTML = "";
-    
-    for (const incident of data) {
-        incident.alt = ITEMS_KEY[incident.icon].alt;
-        const container = createDataCell(incident);
-        contentElem.appendChild(container);
-    }
+    const gridContainer = document.querySelector(".grid");
+    gridContainer.innerHTML = "";
+
+    render(gridContainer, 
+        data.map(incident => {
+            incident.alt = ITEMS_KEY[incident.icon].alt;
+            return createDataCell(incident);
+        })
+    );
 }
 
 /**
