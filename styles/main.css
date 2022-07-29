@@ -17,6 +17,7 @@
     --foreground-color: #fffdfc;
     --secondary-color: #e2e0d8;
     --foter-color: #A30303;
+    --shadow-color: hsla(0, 0%, 0%, 0.09);
 
     /*transitions*/
     --transition-forms: all 0.25s ease-out;
@@ -135,6 +136,15 @@ footer {
 .dataCell {
     font-family: var(--font-2);
     font-size: 1.17em;
+    padding: 20px;
+    transition: all 0.25s ease-in-out;
+}
+
+.dataCell:hover {
+    box-shadow: var(--shadow-color) 0px 2px 4px,
+                var(--shadow-color) 0px 4px 8px,
+                var(--shadow-color) 0px 12px 24px;
+    transform: translateY(-2%);
 }
 
 .dataCell > a {
