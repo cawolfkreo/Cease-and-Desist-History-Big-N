@@ -37,14 +37,14 @@
     {
         "url": "https://www.eurogamer.net/articles/2022-03-03-steam-deck-nintendo-emulation-videos-are-disappearing-from-youtube",
         "icon":"block.svg",
-        "date":"2022-3-03",
+        "date":"2022-03-03",
         "name":"Steam Deck videos removed by Nintendo",
         "description": "Videos on Youtube showing the Steam Deck (Valve's first handheld console) emulating Switch games, were apparently taken down by Nintendo."
     },
     {
         "url": "https://web.archive.org/web/20220227153917/https://twitter.com/EVO/status/1497662793897721860",
         "icon":"block.svg",
-        "date":"2022-2-26",
+        "date":"2022-02-26",
         "name":"Nintendo removed Smash from Evo",
         "description": "The organizers at Evo (The Evolution Championship Series) made a tweet stating that Nintendo decided to removed the Smash tournament from the lineup of games on 2022."
     },
@@ -58,14 +58,14 @@
     {
         "url": "https://www.polygon.com/22916040/nintendo-video-game-music-osts-youtube-gilvasunner-copyright-takedown",
         "icon":"block.svg",
-        "date":"2022-2-03",
+        "date":"2022-02-03",
         "name":"Youtube channel received over 2,200 \"copyright blocks\"",
         "description":"The GilvaSunner youtube channel used to post videogame music soundtracks, it received more than 2,200 \"copyright blocks\" from Nintendo, forcing the owner of the channel to remove the the channel."
     },
     {
         "url": "https://gamerant.com/pokemon-fps-game-footage-videos-nintendo-takedown/",
         "icon":"block.svg",
-        "date":"2022-1-23",
+        "date":"2022-01-23",
         "name":"Pokemon FPS videos removed",
         "description": "Nintendo issued a copyright claim and removed videos containing the gameplay of the fan made FPS Pokemon game across youtube and the original twitter post."
     },
@@ -142,7 +142,7 @@
     {
         "url": "https://kotaku.com/nintendo-back-on-its-bullshit-shuts-down-another-smash-1847585646",
         "icon":"block.svg",
-        "date":"2021-02-2",
+        "date":"2021-02-02",
         "name":"Mainstage 2021 Project+ tournament was shut down.",
         "description":"After riptide shut down their project events, the orginizers of Mainstage 2021 decided to remove Project+ tournaments on their own."
     },
@@ -261,7 +261,7 @@
     {
         "url": "https://www.eurogamer.net/articles/2020-02-01-just-one-animal-crossing-new-horizons-island-per-switch-nintendo-confirms",
         "icon":"block.svg",
-        "date":"2020-02-1",
+        "date":"2020-02-01",
         "name":"Animal Crossing: New Horizons Only allows 1 island per console",
         "description":"No matter how many accounts or copies of the game players have, the game only allows one island per console. Previous versions of the franchise worked similarly on past hardware, but the company did not provide an explanation this time."
     },
