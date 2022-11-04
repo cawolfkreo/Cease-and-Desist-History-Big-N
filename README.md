@@ -28,7 +28,7 @@ If you'd like to edit or host this website on your own, I highly recommend using
 You can use your web browser (chrome, firefox, brave, opera, edge, etc.) to open the website by dragging the `index.html` into a new tab. But if you do it that way, any changes to the `.css`, `.json` and even `.html` files might not be reflected since the browser opens a cache of the file and not the current version. For this reason it is highly recommended to use a webserver (you can find more about this [here](https://letmegooglethat.com/?q=static+web+server)). I use webservers made on node since it makes things easy for me, so if you want to use them you can download node here: https://nodejs.org/en/. If you don't want to use node or use some other webserver, you can do so but it's up to you to set it up.
 
 ## Deployment
-Now you can deploy the website and open it on your browser. If you used your own webserver or you downloaded some other program then you need to follow the instructions for sair webserver. If you downloaded node or you want to use node then there are two main webserver you can use:
+Now you can deploy the website and open it on your browser. If you used your own webserver or you downloaded some other program then you need to follow the instructions for that web-server. If you downloaded node or you want to use node then there are two webservers you can use, **http-server** and **reload**:
 
 ### http-server
 This is a simple webserver, to run it simply [open a console](https://letmegooglethat.com/?q=how+to+open+a+console) on the folder where you downloaded the repository and type:
