@@ -1,5 +1,19 @@
 [
     {
+        "url": "https://www.nintendolife.com/news/2025/01/random-local-supermarket-wins-trademark-battle-against-nintendo",
+        "icon": "law.svg",
+        "date": "2025-01-30",
+        "name": "Nintendo attempted and lost a trademark battle against a Costa Rican supermarkt",
+        "description": "Nintendo has filed a lawsuit against a Costa Rican supermarkt named Super Mario for trademark infringement, Nintendo has lost the trademark battle and the supermarkt gets to keep the name Super Mario."
+    },
+    {
+        "url": "https://www.polygon.com/news/476177/palworld-developer-nintendo-pokemon-lawsuit",
+        "icon": "law.svg",
+        "date": "2024-11-08",
+        "name": "Nintendo files a lawsuit against Pocketpair",
+        "description": "Nintendo has filed a lawsuit against Pocketpair, the developer of Palworld, alleging patent infringement related to game mechanics similar to those in Pokémon games."
+    },
+    {
         "url": "https://wololo.net/2024/03/05/yuzu-is-over/",
         "icon": "law.svg",
         "date": "2024-03-05",
@@ -11,7 +25,7 @@
         "icon": "block.svg",
         "date": "2022-11-01",
         "name": "Youtube channel videos removed for using a mod",
-        "description": "The Youtube channel, OctoBoy, was making splatoon 3 videos using a mod that allowed for better camera angles similar to the trailer videos the developers use. These videos were removed by Nintendo via a copyright claim."
+        "description": "The Youtube channel, OctoBoy, was making Splatoon 3 videos using a mod that allowed for better camera angles similar to the trailer videos the developers use. These videos were removed by Nintendo via a copyright claim."
     },
     {
         "url": "https://www.nintendolife.com/news/2022/06/youtuber-ends-metroid-prime-music-covers-after-nintendos-lawyers-call",
