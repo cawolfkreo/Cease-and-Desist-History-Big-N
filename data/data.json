@@ -14,6 +14,13 @@
         "description": "Nintendo has filed a lawsuit against Pocketpair, the developer of Palworld, alleging patent infringement related to game mechanics similar to those in Pokémon games."
     },
     {
+        "url": "https://www.tomshardware.com/video-games/pc-gaming/nintendo-forces-garrys-mod-to-delete-20-years-of-content-garry-confirms-nintendo-is-behind-steam-workshop-purge",
+        "icon": "block.svg",
+        "date": "2024-04-24",
+        "name": "Nintendo related content removed from the GMOD Steam Workshop",
+        "description": "Nintendo sent out a DMCA notice to Facepunch, Forcing Garry to remove years of user-created addons related to Nintendo from the Steam Workshop"
+    },
+    {
         "url": "https://wololo.net/2024/03/05/yuzu-is-over/",
         "icon": "law.svg",
         "date": "2024-03-05",
