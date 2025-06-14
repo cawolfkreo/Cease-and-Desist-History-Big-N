@@ -3,8 +3,8 @@
         "url": "https://www.nintendolife.com/news/2025/01/random-local-supermarket-wins-trademark-battle-against-nintendo",
         "icon": "law.svg",
         "date": "2025-01-30",
-        "name": "Nintendo attempted and lost a trademark battle against a Costa Rican supermarkt",
-        "description": "Nintendo has filed a lawsuit against a Costa Rican supermarkt named Super Mario for trademark infringement, Nintendo has lost the trademark battle and the supermarkt gets to keep the name Super Mario."
+        "name": "Nintendo attempted and lost a trademark battle against a Costa Rican supermarket",
+        "description": "Nintendo filed a lawsuit against a Costa Rican supermarket named Super Mario for trademark infringement. Nintendo lost the trademark battle and the supermarket gets to keep the name Super Mario."
     },
     {
         "url": "https://www.polygon.com/news/476177/palworld-developer-nintendo-pokemon-lawsuit",
@@ -18,21 +18,21 @@
         "icon": "block.svg",
         "date": "2024-06-21",
         "name": "Nintendo files a DMCA Against 'Heaven Studio'",
-        "description": "Heaven Studio, A fan-made software designed to create Rhythm Heaven styled charts, was removed by Nintendo after receiving a DMCA takedown."
+        "description": "Heaven Studio, a fan-made software designed to create Rhythm Heaven styled charts, was removed by Nintendo after receiving a DMCA takedown."
     },
     {
         "url": "https://www.tomshardware.com/video-games/pc-gaming/nintendo-forces-garrys-mod-to-delete-20-years-of-content-garry-confirms-nintendo-is-behind-steam-workshop-purge",
         "icon": "block.svg",
         "date": "2024-04-24",
         "name": "Nintendo related content removed from the GMOD Steam Workshop",
-        "description": "Nintendo sent out a DMCA notice to Facepunch, Forcing Garry to remove years of user-created addons related to Nintendo from the Steam Workshop"
+        "description": "Nintendo sent out a DMCA notice to Facepunch, forcing Garry to remove years of user-created addons related to Nintendo from the Steam Workshop."
     },
     {
         "url": "https://wololo.net/2024/03/05/yuzu-is-over/",
         "icon": "law.svg",
         "date": "2024-03-05",
         "name": "Yuzu and Citra emulators stomped by Nintendo",
-        "description": "Yuzu and Citra were programs made to emulate Nintendo Switch and Nintendo 3DS games, respectively. Nintendo filed a lawsuit against Yuzu and the company behind it."
+        "description": "Yuzu (a Nintendo Switch emulator) and Citra (a Nintendo 3DS emulator) were shut down after their developers settled a lawsuit with Nintendo for $2.4 million. The settlement also resulted in the emulators no longer being available."
     },
     {
         "url": "https://web.archive.org/web/20221101200442/https://twitter.com/OctoboyYT/status/1587346400366546945",
@@ -59,7 +59,7 @@
         "url": "https://www.eurogamer.net/nintendo-shutting-its-pokemon-diamond-and-pearl-sound-library",
         "icon": "block.svg",
         "date": "2022-05-30",
-        "name": "Nintendo closses the DP sound library months after it's launch",
+        "name": "Nintendo closes the DP sound library months after its launch",
         "description": "In February 2022 Nintendo created a sound library for the music of Pokemon Diamond and Pearl. 3 months later they decided to close the service."
     },
     {
@@ -109,7 +109,7 @@
         "icon":"balance.svg",
         "date":"2021-11-02",
         "name":"Gary Bowser pleads guilty",
-        "description": "The Canadian Hacker was found guilty and now has to pay $4.5 million, and could also face up to 10 years in jail."
+        "description": "The Canadian hacker was found guilty, ordered to pay $4.5 million, and was sentenced to 40 months in prison. He was released in early 2023."
     },
     {
         "url": "https://www.dexerto.com/gaming/nintendo-switch-online-price-finally-revealed-and-fans-are-furious-1676585/",
@@ -143,14 +143,14 @@
         "url": "https://www.ign.com/articles/now-defunct-romuniverse-ordered-to-destroy-all-pirated-nintendo-games",
         "icon":"block.svg",
         "date":"2021-08-14",
-        "name":"RomUniverse owner is ordered to destroy it's pirated games",
-        "description": "The owner of the defunct site was ordered to destroy all of Nintendo pirated games they had. This was done anfter the owner hinted he might try to re-stablish the site again."
+        "name":"RomUniverse owner is ordered to destroy its pirated games",
+        "description": "After its owner hinted he might try to re-establish the site, the court ordered him to destroy all of Nintendo's pirated games."
     },
     {
         "url": "https://kotaku.com/nintendo-s-lawsuit-forces-japanese-dev-to-cough-up-30-1847420631",
         "icon":"balance.svg",
         "date":"2021-08-04",
-        "name":"A Japanese dev loses lawsuit and it sattles for millions",
+        "name":"A Japanese dev loses lawsuit and it settles for millions",
         "description":"Nintendo sued developer Colopl over patent infringements, the damages Nintendo claimed continued to increase and Colopl decided to settle with for $30 million instead of continuing the lawsuit."
     },
     {
@@ -172,14 +172,14 @@
         "icon":"law.svg",
         "date":"2021-04-13",
         "name":"Bowser's genitals hit with copyright takedown",
-        "description": "A 3D modeler that makes NSFW art was hit by a copyright takedown on Patreon and it's artwork was removed from the platform. The 3D model is now open source and free to download."
+        "description": "A 3D modeler that makes NSFW art was hit by a copyright takedown on Patreon and its artwork was removed from the platform. The 3D model is now open source and free to download."
     },
     {
         "url": "https://kotaku.com/nintendo-back-on-its-bullshit-shuts-down-another-smash-1847585646",
         "icon":"block.svg",
         "date":"2021-02-02",
         "name":"Mainstage 2021 Project+ tournament was shut down.",
-        "description":"After riptide shut down their project events, the orginizers of Mainstage 2021 decided to remove Project+ tournaments on their own."
+        "description":"After Riptide shut down their project events, the organizers of Mainstage 2021 decided to remove Project+ tournaments on their own."
     },
     {
         "url": "https://torrentfreak.com/nintendo-conducted-invasive-surveillance-operation-against-homebrew-hacker-201223/",
@@ -207,7 +207,7 @@
         "icon":"block.svg",
         "date":"2020-12-04",
         "name":"The original Fire Emblem had a limited release",
-        "description": "Nintendo released the original Fire Emblem game for the NES, in english, for the first time. The game was only avialable for 3 months since it was removed from the switch store after March 31st 2021."
+        "description": "Nintendo released the original Fire Emblem game for the NES, in english, for the first time. The game was only available for 3 months since it was removed from the switch store after March 31st 2021."
     },
     {
         "url": "https://dotesports.com/streaming/news/multiple-streamers-banned-by-nintendo-for-playing-hyrule-warriors-age-of-calamity",
@@ -262,7 +262,7 @@
         "url": "https://torrentfreak.com/nintendo-wants-permanent-injunction-to-shut-down-switch-piracy-hack-stores-200907/",
         "icon":"block.svg",
         "date":"2020-09-07",
-        "name":"Nintendo wants permantent Injuction to piracy stores",
+        "name":"Nintendo wants permanent Injunction to piracy stores",
         "description": "The company asked the court to issue a default judgment and permanent injunction to shut down several stores that sell Team-Xecuter's Switch hacks and mods."
     },
     {
@@ -305,7 +305,7 @@
         "icon":"law.svg",
         "date":"2019-09-11",
         "name":"RomUniverse is taken to court",
-        "description": "Nintendo filed a lawsuit against ROM site, RomUniverse, for copyright and trademak infirngement since the site distributed ROMs from games made by the company."
+        "description": "Nintendo filed a lawsuit against ROM site, RomUniverse, for copyright and trademark infringement since the site distributed ROMs from games made by the company."
     },
     {
         "url": "https://torrentfreak.com/nintendo-takes-down-facebook-tooled-donkey-kong-remake-190930/",
@@ -346,8 +346,8 @@
         "url": "https://www.eurogamer.net/articles/2019-04-20-nintendo-is-deleting-what-it-deems-inappropriate-super-smash-bros-ultimate-stages",
         "icon":"block.svg",
         "date":"2019-04-20",
-        "name":"Nintendo removes SSBU stages it deemed inappropiate or \"political\"",
-        "description": "Nintendo removed stages it deemed inappropiate, but also stages it considered to be a \"political statement\" like stages that contained the trans flag. Not all stages with trans flags were removed and the article suggest the company was struggling to moderate the content of the platform."
+        "name":"Nintendo removes SSBU stages it deemed inappropriate or \"political\"",
+        "description": "Nintendo removed stages it deemed inappropriate, but also stages it considered to be a \"political statement\" like stages that contained the trans flag. Not all stages with trans flags were removed and the article suggest the company was struggling to moderate the content of the platform."
     },
     {
         "url": "https://www.eurogamer.net/articles/2018-11-29-nintendo-scraps-creators-program-making-life-much-easier-for-youtubers",
@@ -424,7 +424,7 @@
         "icon":"law.svg",
         "date":"2016-09-21",
         "name":"Pokémon Uranium is taken down",
-        "description": "A fanmade game is created and a few weeks later all the download links are removed by it's creators, it was later revealed that Nintendo sent a legal leter to the creators"
+        "description": "A fanmade game is created and a few weeks later all the download links are removed by its creators, it was later revealed that Nintendo sent a legal leter to the creators"
     },
     {
         "url": "https://www.wired.co.uk/article/nintendo-removes-500-games",
