@@ -567,6 +567,13 @@
         "description": "Console Clasix, a rental service that operates with thousands of physical ROMs, was sent a cease & desist letter to stop the service. They replied stating why it wasn't illegal and never heard from Nintendo again."
     },
     {
+        "url": "https://www.theregister.com/1999/02/03/n64_emulator_vanishes_after_lawsuit/",
+        "icon": "law.svg",
+        "date": "1999-01-28",
+        "name": "UltraHLE Cancelled",
+        "description": "UltraHLE, an early Nintendo 64 emulator, was pulled from its website by its developers out of fear of legal action from Nintendo. Nintendo had previously expressed interest in legal action against UltraHLE."
+    },
+    {
         "url": "https://scholar.google.com/scholar_case?case=14167398686354689030&hl=en&as_sdt=2&as_vis=1&oi=scholarr",
         "icon":"law.svg",
         "date":"1991-07-12",
