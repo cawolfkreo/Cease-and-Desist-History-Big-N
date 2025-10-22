@@ -371,6 +371,13 @@
         "description": "When the Nintendo Switch Online service, priced at $20, launched it was the subject of various fan complaints."
     },
     {
+        "url": "https://web.archive.org/web/20251022045532/https://www.theverge.com/2018/8/29/17793044/pokemon-essentials-nintendo-takedown-fandom-wiki",
+        "icon":"block.svg",
+        "date":"2018-08-29",
+        "name":"Nintendo shuts down Pokémon Essentials", 
+        "description": "Pokémon Essentials was an RPG Maker XP tool that allowed fans to make Pokémon fan games. Nintendo took down the tool from multiple hosting sites. Additionally, the wiki on how to use the tool was also taken down."
+    },
+    {
         "url": "https://www.polygon.com/2018/7/22/17600008/nintendo-roms-lawsuit-cease-desist",
         "icon":"law.svg",
         "date":"2018-07-22",
@@ -497,11 +504,11 @@
         "description":"A high-school student made a GBA emuator for iOS that allowed to be installed without jailbreak, Nintendo sent a Takedown requesting to remove the code from Github."
     },
     {
-        "url": "https://www.bbc.com/news/technology-27321200",
+        "url": "https://web.archive.org/web/20250924162342/https://www.bbc.com/news/technology-27321200",
         "icon":"block.svg",
         "date":"2014-05-08",
-        "name":"Nintendo says 'No' to gay game charaters",
-        "description": "After the company released Tomodachi Life, a life-simulation game, a fan launched a social media campaign asking to allow same-sex relationships in the game. The company replied that \"never intended to make any form of social commentary with the game\"."
+        "name":"Nintendo says 'No' to gay game characters",
+        "description": "After the company released Tomodachi Life, a life-simulation game, a fan launched a social media campaign asking to allow same-sex relationships in the game. Nintendo replied that \"(Nintendo) never intended to make any form of social commentary with the game\"."
     },
     {
         "url": "https://www.polygon.com/2014/1/18/5308416/why-did-nintendo-quash-a-book-about-earthbounds-development",
