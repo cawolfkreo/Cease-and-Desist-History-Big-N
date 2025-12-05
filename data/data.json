@@ -28,11 +28,18 @@
         "description": "Nintendo sent out a DMCA notice to Facepunch, forcing Garry to remove years of user-created addons related to Nintendo from the Steam Workshop."
     },
     {
-        "url": "https://wololo.net/2024/03/05/yuzu-is-over/",
-        "icon": "law.svg",
+        "url": "https://web.archive.org/web/20250714141336/https://wololo.net/2024/03/05/yuzu-is-over/",
+        "icon": "block.svg",
         "date": "2024-03-05",
         "name": "Yuzu and Citra emulators stomped by Nintendo",
         "description": "Yuzu (a Nintendo Switch emulator) and Citra (a Nintendo 3DS emulator) were shut down after their developers settled a lawsuit with Nintendo for $2.4 million. The settlement also resulted in the emulators no longer being available."
+    },
+    {
+         "url": "https://web.archive.org/web/20250122211743/https://es.dolphin-emu.org/blog/2023/07/20/what-happened-to-dolphin-on-steam/",
+        "icon": "block.svg",
+        "date": "2023-06-20",
+        "name": "Nintendo asked Valve to prevent the Dolphin emulator on Steam",
+        "description": "The team behind the emulator announced Dolphin was coming to Steam. However, Valve's legal team got in contact with Nintendo's lawyers and were told to prevent the emulator to come to the platform."
     },
     {
         "url": "https://web.archive.org/web/20221101200442/https://twitter.com/OctoboyYT/status/1587346400366546945",
